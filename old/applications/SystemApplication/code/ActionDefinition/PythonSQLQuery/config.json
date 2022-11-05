@@ -1,0 +1,10 @@
+{
+    "Action": {
+        "Id":"16",
+        "ActionType":"InternalProfiling", 
+        "PresentationFormat":"table_value", 
+        "QueryLanguage":"SQL", 
+        "OutputDestination": "file", 
+        "IsVisibleOnUI": false
+    }
+}

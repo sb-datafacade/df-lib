@@ -1,0 +1,8 @@
+{
+  "Action": {
+    "PresentationFormat": "table_value",
+    "ActionType": "Profiling",
+    "Description": "This action is for filter your data. You can give the individual column filters as lists",
+    "ActionGroup": "TimeSeriesForecast"
+  }
+}

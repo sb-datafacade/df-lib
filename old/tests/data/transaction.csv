@@ -1,0 +1,11 @@
+id,customer_id,order_id,product_id,amount,payment_type
+tx1,c1,o1,p1,120,credit-card
+tx2,c1,o2,p3,102,credit-card
+tx3,c2,o3,p2,120,cash
+tx4,c2,o4,p2,120,cash
+tx5,c2,o5,p3,102,cash
+tx6,c3,o6,p2,102,credit-card
+tx7,c4,o7,p2,1023,cash
+tx8,c4,o8,p2,103,credit-card
+tx9,c4,o9,p2,1033,cash
+tx10,c9,o10,p1,203,credit-card

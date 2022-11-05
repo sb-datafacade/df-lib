@@ -1,0 +1,56 @@
+[
+    {
+      "Parameter": {
+        "Datatype": "pandas_dataframe",
+        "Tag": "data",
+        "ParameterName": "Data",
+        "Type": "compile_time",
+        "DisplayName": "Source Data",
+        "Description": "Select the source data table from the dropdown. This table contains the transaction details of the customers."
+      },
+      "Tags": []
+    },
+    {
+        "Parameter": {
+            "Datatype": "column_names_list",
+            "ParameterName": "CustomerID",
+            "Type": "compile_time",
+            "DisplayName": "Customer ID",
+          "Description": " Customer ID is the column(s) in the data set with customer identification number, phone number or email id that uniquely identifies the customer."
+        },
+        "Tags": []
+    },
+    {
+        "Parameter": {
+            "Datatype": "string",
+            "Tag": "column_name",
+            "ParameterName": "Interaction_ID",
+            "Type": "compile_time",
+            "DisplayName": "Interaction ID",
+           "Description": "The column with the interaction identification number or interaction date time stamp that uniquely identifies the purchase."
+        },
+        "Tags": []
+    },
+    {
+        "Parameter": {
+            "Datatype": "string",
+            "Tag": "column_name",
+            "ParameterName": "Interaction_Date",
+            "Type": "compile_time",
+            "DisplayName": "Interaction Date",
+            "Description": " The column with the interaction date i.e date that was captured by the system when the customer made the interaction."
+        },
+        "Tags": []
+    },
+    {
+        "Parameter": {
+            "Datatype": "string",
+            "Tag": "column_name",
+            "ParameterName": "Interaction_Value",
+            "Type": "compile_time",
+            "DisplayName": "Interaction Value",
+            "Description": "The column with the interaction values that lists the interaction amount the customer for each interaction."
+        },
+        "Tags": []
+    }
+]

@@ -1,0 +1,12 @@
+{
+    "Action": {
+        "Id":"4", 
+        "UniqueName":"FetchTableMetadataSnowflake", 
+        "ActionType":"Sync", 
+        "OutputFormat":"table", 
+        "TemplateType":"Sync Table Metadata", 
+        "PresentationFormat":"sync", 
+        "QueryLanguage": "SQL", 
+        "IsVisibleOnUI": false
+    }
+  }

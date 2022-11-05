@@ -1,0 +1,10 @@
+{
+  "Action": {
+    "PresentationFormat" : "table_value",
+    "OutputFormat" : "model",
+    "ActionType" : "Profiling",
+    "ActionGroup": "Modeling",
+    "Description": "Action to generate segments based on user specified method and number of segments , only applied on transformed data."
+    },
+    "Tags": ["Modeling","Segmentation"]
+}

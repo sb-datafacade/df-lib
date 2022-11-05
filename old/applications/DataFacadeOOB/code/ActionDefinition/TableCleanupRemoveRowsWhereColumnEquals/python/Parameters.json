@@ -1,0 +1,35 @@
+[
+    {
+        "Parameter": {
+            "Id": "adac6913-ebcb-4735-9ce6-23c67a3dcf67",
+            "TemplateId": "eb1b8b2e-c03f-4a07-925f-0b1b359afffe",
+            "Datatype": "pandas_dataframe",
+            "Tag": "data",
+            "ParameterName": "df",
+            "Type": "run_time"
+        },
+        "Tags": []
+    },
+    {
+        "Parameter": {
+            "Id": "6d208b82-d856-4cfe-8c71-c41b3a70d0c1",
+            "TemplateId": "eb1b8b2e-c03f-4a07-925f-0b1b359afffe",
+            "Datatype": "string",
+            "Tag": "column_name",
+            "ParameterName": "column_name",
+            "Type": "compile_time"
+        },
+        "Tags": []
+    },
+    {
+        "Parameter": {
+            "Id": "637a72e7-fc6b-4e2a-882c-faaca295a54f",
+            "TemplateId": "eb1b8b2e-c03f-4a07-925f-0b1b359afffe",
+            "Datatype": "infer",
+            "Tag": "other",
+            "ParameterName": "column_value",
+            "Type": "compile_time"
+        },
+        "Tags": []
+    }
+]

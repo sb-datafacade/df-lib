@@ -1,0 +1,10 @@
+{
+	"Action": {
+		"PresentationFormat" : "table_value",
+		"OutputFormat" : "table",
+		"DefaultActionTemplateId" : "239a5df5-fc8c-4311-b5a6-b035ce34c3f6",
+		"DefaultEntity" : "Table",
+		"ActionType" : "Profiling",
+		"ActionGroup": "Data Cleansing"
+	}
+}

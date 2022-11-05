@@ -1,0 +1,48 @@
+[
+    {
+      "Parameter": {
+        "Datatype": "pandas_dataframe",
+        "Tag": "data",
+        "ParameterName": "data",
+        "Type": "compile_time"
+      },
+      "Tags": []
+    },
+    {
+    "Parameter": {
+      "Datatype": "string",
+      "Tag": "column_name",
+      "ParameterName": "axis",
+      "Type": "run_time"
+    },
+    "Tags": []
+   },
+  {
+    "Parameter": {
+      "Datatype": "string",
+      "Tag": "column_name",
+      "ParameterName": "legend",
+      "Type": "run_time",
+      "DefaultParameterValue": "Segment"
+    },
+    "Tags": []
+   },
+   {
+    "Parameter": {
+      "Datatype": "string",
+      "ParameterName": "sql_filter",
+      "Type": "run_time",
+      "DefaultParameterValue": "optional"
+    },
+    "Tags": []
+   },
+   {
+    "Parameter": {
+      "Datatype": "int",
+      "ParameterName": "number_of_class",
+      "Type": "run_time",
+      "DefaultParameterValue": "6"
+    },
+    "Tags": []
+   }
+]

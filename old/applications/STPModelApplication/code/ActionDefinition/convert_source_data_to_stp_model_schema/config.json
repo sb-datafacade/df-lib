@@ -1,0 +1,8 @@
+{
+  "Action": {
+    "PresentationFormat" : "Object",
+    "OutputFormat" : "model",
+    "ActionType" : "Profiling",
+    "Description": "Action for converting source raw data to STP model schema."
+  }
+}

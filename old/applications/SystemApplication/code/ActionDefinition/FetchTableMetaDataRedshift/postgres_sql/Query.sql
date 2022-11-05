@@ -1,0 +1,1 @@
+SELECT table_schema as schemaname, table_name as tablename, column_name as columnname, data_type as columndatatype FROM information_schema.columns WHERE schemaname = '{SchemaName}' AND tablename = '{TableName}'

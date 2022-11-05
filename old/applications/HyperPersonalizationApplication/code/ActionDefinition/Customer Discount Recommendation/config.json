@@ -1,0 +1,6 @@
+{
+    "Action": {
+      "ActionType" : "Workflow",
+      "Description": "This app generates the discount percentage for each user based on their activity and behavior traits."
+    }
+}

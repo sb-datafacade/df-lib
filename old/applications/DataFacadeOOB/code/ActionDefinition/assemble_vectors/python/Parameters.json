@@ -1,0 +1,23 @@
+[
+    {
+      "Parameter": {
+        "Datatype": "pandas_dataframe",
+        "Tag": "data",
+        "ParameterName": "data",
+        "Type": "compile_time",
+        "DisplayName": "Source Data Table",
+        "Description": "Choose The Data Table On Which You Want To Apply This Action"
+      },
+      "Tags": []
+    },
+    {
+    "Parameter": {
+      "Datatype": "column_names_list",
+      "ParameterName": "columns",
+      "Type": "run_time",
+      "DisplayName": "Chose The Columns You Want To Assemble To A New Column",
+      "Description": "List of  columns (with vector values) which will be assembled"
+    },
+    "Tags": []
+  }
+]

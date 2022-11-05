@@ -1,0 +1,25 @@
+[
+    {
+        "Parameter": {
+            "Id": "c17b8d1f-13ae-49f3-8497-98acca9a567a",
+            "TemplateId": "6b1590f0-5c28-4c36-bb97-6386c89b48f4",
+            "Datatype": "pandas_dataframe",
+            "Tag": "data",
+            "ParameterName": "df",
+            "ActionDefinitionId" : "02ae0122-8a21-41ab-ab6e-a946798bbe4d",
+            "Type": "run_time"
+        },
+        "Tags": []
+    },
+    {
+        "Parameter": {
+            "Id": "911091cb-0ebf-44ec-b30d-636f83086680",
+            "TemplateId": "6b1590f0-5c28-4c36-bb97-6386c89b48f4",
+            "Datatype": "string",
+            "Tag": "column_name",
+            "ParameterName": "column_to_remove_name",
+            "Type": "compile_time"
+        },
+        "Tags": []
+    }
+]

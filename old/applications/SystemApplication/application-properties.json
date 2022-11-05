@@ -1,0 +1,8 @@
+{
+  "Id": "2",
+  "Version": "0.1.0",
+  "Name": "System Application", 
+  "CreatedBy": "DataFacade", 
+  "Description": "System Application to hold stuff user shouldn't see", 
+  "IsVisibleOnUI": false
+}

@@ -1,0 +1,55 @@
+[
+    {
+      "Parameter": {
+        "Datatype": "pandas_dataframe",
+        "Tag": "data",
+        "ParameterName": "data",
+        "Type": "compile_time",
+        "DisplayName": "Source Data Table",
+        "Description": "Choose the data table on which you want to apply this action"
+      },
+      "Tags": []
+    },
+    {
+    "Parameter": {
+      "Datatype": "column_names_list",
+      "ParameterName": "column",
+      "Type": "run_time",
+      "DisplayName": "Choose The Column",
+      "Description": "Name of the column for which you want identify and handel outliers"
+    },
+    "Tags": ["Floating"]
+   },
+   {
+    "Parameter": {
+      "Datatype": "int",
+      "ParameterName": "lower_threshold",
+      "Type": "run_time",
+      "DisplayName": "Specify The Minimum Threshold",
+      "Description": "Please mention the minimum threshold which will be used in identifying the outliers, i.e. if any value is less than the minimum threshold, it will be  identified as outlier "
+    },
+    "Tags": []
+   },
+   {
+    "Parameter": {
+      "Datatype": "int",
+      "ParameterName": "upper_threshold",
+      "Type": "run_time",
+      "DisplayName": "Specify The Maximum Threshold",
+      "Description": "Please mention the maximum threshold which will be used in identifying the outliers, i.e. if any value is greater than the maximum threshold, it will be  identified as outlier "
+    },
+    "Tags": []
+   },
+   {
+    "Parameter": {
+      "Datatype": "string",
+      "Tag": "option_set_single",
+      "ParameterName": "fix_method",
+      "Type": "run_time",
+      "OptionSetValues":"clip,remove,invalidate",
+      "DisplayName": "Choose The Method",
+      "Description": "Please chose the method for handling outliers, clip means replace outliers with threshold values, remove means drop the outliers from the data,invalidate means replace the outliers with null"
+    },
+    "Tags": []
+   }
+]

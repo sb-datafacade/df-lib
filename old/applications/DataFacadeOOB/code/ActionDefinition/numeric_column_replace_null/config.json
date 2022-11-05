@@ -1,0 +1,8 @@
+{
+	"Action": {
+		"PresentationFormat" : "table_value",
+		"OutputFormat" : "table_value",
+		"ActionType" : "Profiling",
+		"ActionGroup": "HandleMissing"
+	}
+}

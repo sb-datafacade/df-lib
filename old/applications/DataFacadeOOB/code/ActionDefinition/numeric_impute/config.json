@@ -1,0 +1,10 @@
+{
+    "Action": {
+      "PresentationFormat" : "table_value",
+      "OutputFormat" : "model",
+      "ActionType" : "Profiling",
+      "ActionGroup": "HandleMissing",
+      "Description": "Impute numeric values (only applicable to numeric columns)."
+    },
+    "Tags": ["DataCleanup"]
+}

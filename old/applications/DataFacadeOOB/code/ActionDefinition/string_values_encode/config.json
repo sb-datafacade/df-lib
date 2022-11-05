@@ -1,0 +1,10 @@
+{
+    "Action": {
+      "PresentationFormat" : "table_value",
+      "OutputFormat" : "model",
+      "ActionType" : "Profiling",
+      "ActionGroup": "EncodeCategorical",
+      "Description": "Action to encode strings"
+    },
+    "Tags": ["EncodeCategorical"]
+}

@@ -1,0 +1,48 @@
+[
+  {
+    "Parameter": {
+      "Datatype": "string",
+      "Tag": "new_prediction_model_name",
+      "ParameterName": "ModelName",
+      "Type": "compile_time"
+    },
+    "Tags": []
+  },
+  {
+    "Parameter": {
+      "Datatype": "string",
+      "Tag": "sagemaker_model_uri",
+      "ParameterName": "ModelURI",
+      "Type": "compile_time",
+      "DefaultParameterValue": "257758044811.dkr.ecr.us-east-2.amazonaws.com/sagemaker-xgboost:1.3-1"
+    },
+    "Tags": []
+  },
+  {
+    "Parameter": {
+      "Datatype": "int",
+      "ParameterName": "num_round",
+      "Type": "compile_time"
+    },
+    "Tags": []
+  },
+  {
+    "Parameter": {
+      "Datatype": "string",
+      "Tag": "sagemaker_xgboost_predictor_type",
+      "ParameterName": "predictor_type",
+      "Type": "compile_time"
+    },
+    "Tags": []
+  },
+  {
+    "Parameter": {
+      "Datatype": "pandas_dataframe",
+      "DefaultParameterValue": "SELECT * from {table_name}",
+      "Tag": "data",
+      "ParameterName": "Table",
+      "Type": "compile_time"
+    },
+    "Tags": []
+  }
+]

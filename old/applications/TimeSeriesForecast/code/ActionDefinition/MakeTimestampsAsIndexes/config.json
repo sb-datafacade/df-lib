@@ -1,0 +1,8 @@
+{
+  "Action": {
+    "PresentationFormat": "Object",
+    "ActionType": "Profiling",
+    "Description": "Prepared dataframe for forecasting",
+    "ActionGroup": "TimeSeriesForecast"
+  }
+}

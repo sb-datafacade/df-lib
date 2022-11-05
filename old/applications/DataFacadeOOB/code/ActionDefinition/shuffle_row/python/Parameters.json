@@ -1,0 +1,13 @@
+[
+    {
+      "Parameter": {
+        "Datatype": "pandas_dataframe",
+        "Tag": "data",
+        "ParameterName": "data",
+        "Type": "compile_time",
+        "DisplayName": "Source Data Table",
+        "Description": "Choose the data table on which you want to apply this action"
+      },
+      "Tags": []
+    }
+]

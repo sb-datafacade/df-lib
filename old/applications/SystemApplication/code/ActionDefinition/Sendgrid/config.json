@@ -1,0 +1,7 @@
+{
+    "Action": {
+        "Id":"5",
+        "ActionType":"Notification", 
+        "IsVisibleOnUI": false
+    }
+  }

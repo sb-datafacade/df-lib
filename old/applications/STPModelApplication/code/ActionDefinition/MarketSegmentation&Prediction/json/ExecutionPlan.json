@@ -1,0 +1,113 @@
+[
+    {
+      "DisplayName": "convert_source_data_to_stp_model_schema",
+      "ParameterValues": {
+          "Data": {
+            "GlobalParameterId": "Source Data"
+          }
+      },
+      "stageName": "Data Preparation"
+    },
+    {
+      "DisplayName": "convert_source_data_to_stp_model_schema",
+      "ParameterValues": {
+          "Data": {
+            "GlobalParameterId": "Descriptor Data"
+          }
+      },
+      "stageName": "Data Preparation"
+    },
+    {
+      "DisplayName": "convert_source_data_to_stp_model_schema",
+      "ParameterValues": {
+          "Data": {
+            "GlobalParameterId": "Sample Data"
+          }
+      },
+      "stageName": "Data Preparation"
+    },
+    {
+        "DisplayName": "segmentation",
+        "ParameterValues": {
+            "data": {
+                "SourceExecutionId": "convert_source_data_to_stp_model_schema-0"
+            },
+            "CustomerID": {
+                "GlobalParameterId": "Customer ID"
+            },
+            "number_of_segments": {
+                "GlobalParameterId": "Number Of Segments"
+            },
+            "method": {
+                "GlobalParameterId": "Segmentation Method"
+            }
+        },
+        "stageName": "Modeling"
+    },
+    {
+        "DisplayName": "segmentation_summary",
+        "ParameterValues": {
+            "data": {
+                "SourceExecutionId": "segmentation-3"
+            },
+            "segment_column": {
+                "ParameterValue": "segment"
+            }
+        },
+        "stageName": "Modeling"
+    },
+    {
+        "DisplayName": "segment_profiling",
+        "ParameterValues": {
+            "data": {
+                "SourceExecutionId": "segmentation-3"
+            },
+            "CustomerID": {
+                "GlobalParameterId": "Customer ID"
+            },
+            "segment_column": {
+                "ParameterValue": "segment"
+            }
+        },
+        "stageName": "Segment Profiling"
+    },
+    {
+        "DisplayName": "segment_difference_in_profiles",
+        "ParameterValues": {
+            "data": {
+                "SourceExecutionId": "segmentation-3"
+            },
+            "CustomerID": {
+                "GlobalParameterId": "Customer ID"
+            },
+            "segment_column": {
+                "ParameterValue": "segment"
+            }
+        },
+        "stageName": "Segment Profiling"
+    },
+    {
+        "DisplayName": "out_of_sample_prediction",
+        "ParameterValues": {
+            "descriptor_data": {
+                "SourceExecutionId": "convert_source_data_to_stp_model_schema-1"
+            },
+            "segment_data": {
+                "SourceExecutionId": "segmentation-3"
+            },
+            "segment_column": {
+                "ParameterValue": "segment"
+            },
+            "CustomerID": {
+                "GlobalParameterId": "Customer ID"
+            },
+            "method": {
+                "GlobalParameterId": "Classification Method"
+            },
+            "out_of_sample_data": {
+                "SourceExecutionId": "convert_source_data_to_stp_model_schema-2"
+            }
+        },
+        "stageName": "Segment Validation And Prediction"
+    }
+]

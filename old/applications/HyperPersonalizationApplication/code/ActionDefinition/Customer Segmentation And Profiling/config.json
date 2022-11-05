@@ -1,0 +1,6 @@
+{
+    "Action": {
+      "ActionType": "Workflow",
+      "Description": "This app uses segmentation practices (algorithms) to divide customers into smaller groups based on their specific characteristics like transaction history, behavior, age, income, and personality."
+    }
+}

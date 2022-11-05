@@ -1,0 +1,78 @@
+[
+    {
+      "UniqueName": "fintech_data_preparation",
+      "DisplayName": "Data Preparation",
+      "ParameterValues": {
+          "Data": {
+            "GlobalParameterId": "Fintech Data"
+          }
+      },
+      "stageName": "Data Preparation"
+    },
+    {
+      "UniqueName": "top_screen_data_preparation",
+      "DisplayName": "Identifying Top Screens In The Customer Journey",
+      "ParameterValues": {
+          "top_screen_data": {
+            "GlobalParameterId": "Top Screen Data"
+          },
+          "data": {
+                "SourceExecutionId": "fintech_data_preparation-0"
+            }
+      },
+      "stageName": "Data Preparation"
+    },
+    {
+      "UniqueName": "propensity_calculation_cohort_building",
+      "DisplayName": "Propensity Calculation",
+        "ParameterValues": {
+             "source_data": {
+            "GlobalParameterId": "Fintech Data"
+          },
+            "transformed_data": {
+            "SourceExecutionId": "top_screen_data_preparation-1"
+          },
+            "target_column": {
+                "ParameterValue": "enrolled"
+            },
+          "subscription_column": {
+                "ParameterValue": "subscribed"
+            },
+          "discount_id_column": {
+                "ParameterValue": "offer_id"
+            },
+          "discount_column": {
+                "ParameterValue": "discount"
+            },
+            "CustomerID": {
+                "ParameterValue": "user"
+            },
+            "propensity_lower_limit": {
+                "GlobalParameterId": "Enter The Lower Propensity Limit"
+            },
+            "propensity_upper_limit": {
+                "GlobalParameterId": "Enter The Upper Propensity Limit"
+            },
+            "method": {
+                "ParameterValue": "XGBoost Classifier"
+            }
+        },
+        "stageName": "Customer Propensity Generator"
+    },
+    {
+      "UniqueName": "fintech_customer_cohort_analysis",
+      "DisplayName": "Cohort Analysis",
+        "ParameterValues": {
+            "fintech_data": {
+                "GlobalParameterId": "Fintech Data"
+            },
+            "propensity_data": {
+            "SourceExecutionId": "propensity_calculation_cohort_building-2"
+          },
+            "CustomerID": {
+                "ParameterValue": "user"
+            }
+        },
+        "stageName": "Customer Propensity Generator"
+    }
+]

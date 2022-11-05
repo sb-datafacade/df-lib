@@ -1,0 +1,34 @@
+[
+    {
+        "Parameter": {
+            "Id": "cdce44e3-0db9-468b-b97e-9fd580ec3b46",
+            "TemplateId": "67e531a8-ecad-47a4-9564-7063688c81db",
+            "Datatype": "pandas_dataframe",
+            "Tag": "data",
+            "ParameterName": "df",
+            "Type": "run_time"
+        },
+        "Tags": []
+    },
+    {
+        "Parameter": {
+            "Id": "7907814c-eced-4947-b785-2af2cb61ff6b",
+            "TemplateId": "67e531a8-ecad-47a4-9564-7063688c81db",
+            "Datatype": "column_names_list",
+            "ParameterName": "column_names",
+            "Type": "compile_time"
+        },
+        "Tags": ["Floating"]
+    },
+    {
+        "Parameter": {
+            "Id": "46e07c81-187d-46b9-bf89-7d95b86e7e57",
+            "TemplateId": "67e531a8-ecad-47a4-9564-7063688c81db",
+            "Datatype": "int",
+            "Tag": "other",
+            "ParameterName": "digits_after_decimal",
+            "Type": "compile_time"
+        },
+        "Tags": []
+    }
+]

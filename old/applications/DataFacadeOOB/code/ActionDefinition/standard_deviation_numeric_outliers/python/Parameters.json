@@ -1,0 +1,46 @@
+[
+    {
+      "Parameter": {
+        "Datatype": "pandas_dataframe",
+        "Tag": "data",
+        "ParameterName": "data",
+        "Type": "compile_time",
+        "DisplayName": "Source Data Table",
+        "Description": "Choose the data table on which you want to apply this action"
+      },
+      "Tags": []
+    },
+    {
+    "Parameter": {
+      "Datatype": "column_names_list",
+      "ParameterName": "columns",
+      "Type": "run_time",
+      "DisplayName": "Choose The Columns",
+      "Description": "List of column names for which you want to apply this outlier handling action"
+    },
+    "Tags": ["Floating"]
+   },
+   {
+    "Parameter": {
+      "Datatype": "float",
+      "ParameterName": "number_of_sd",
+      "Type": "run_time",
+       "DisplayName": "Specify Any Real Number",
+      "Description": "Please mention the number of standard deviations of which a value must vary from the mean,i.e if you want a 3 standard deviation limit give input as 3",
+      "DefaultParameterValue": "1.0"
+    },
+    "Tags": []
+   },
+   {
+    "Parameter": {
+      "Datatype": "string",
+      "Tag": "option_set_single",
+      "ParameterName": "fix_method",
+      "Type": "run_time",
+      "OptionSetValues":"clip,remove,invalidate",
+      "DisplayName": "Choose The Method",
+      "Description": "Please chose the method for handling outliers, clip means replace outliers with threshold values, remove means drop the outliers from the data,invalidate means replace the outliers with null"
+    },
+    "Tags": []
+   }
+]

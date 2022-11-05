@@ -1,0 +1,12 @@
+[
+    {
+        "Parameter": {
+            "Id":"1000",
+            "ParameterName":"TableName",
+            "Datatype":"String",
+            "Type":"compile_time",
+            "Tag":"table_name"
+        },
+        "Tags": []
+    }
+]

@@ -1,0 +1,8 @@
+{
+  "Id": "c69f8cf8-1e74-4bdb-8238-37720de0d11a",
+  "Name": "OutOfBoxProfiling",
+  "TagGroup": "OOB",
+  "Scope": "Table",
+  "CreatedBy": "DataFacade",
+  "Description": "Runs OOB Profiling for Tables"
+}

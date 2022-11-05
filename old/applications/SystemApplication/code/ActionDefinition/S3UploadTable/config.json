@@ -1,0 +1,7 @@
+{
+    "Action": {
+        "Id":"14", 
+        "ActionType":"UploadTableToStorage", 
+        "IsVisibleOnUI": false
+    }
+}

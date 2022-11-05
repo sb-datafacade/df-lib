@@ -1,0 +1,21 @@
+[
+  {
+    "Parameter": {
+      "Datatype": "pandas_dataframe",
+      "DefaultParameterValue": "SELECT * from {table_name}",
+      "Tag": "data",
+      "ParameterName": "Table",
+      "Type": "compile_time"
+    },
+    "Tags": []
+  },
+  {
+    "Parameter": {
+      "Datatype": "string",
+      "Tag": "trained_prediction_model_name",
+      "ParameterName": "Model",
+      "Type": "compile_time"
+    },
+    "Tags": []
+  }
+]

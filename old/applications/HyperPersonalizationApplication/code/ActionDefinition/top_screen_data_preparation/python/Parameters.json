@@ -1,0 +1,22 @@
+[
+    {
+      "Parameter": {
+        "Datatype": "pandas_dataframe",
+        "Tag": "data",
+        "ParameterName": "data",
+        "Type": "compile_time",
+        "DisplayName": "Source Data"
+      },
+      "Tags": []
+    },
+  {
+      "Parameter": {
+        "Datatype": "pandas_dataframe",
+        "Tag": "data",
+        "ParameterName": "top_screen_data",
+        "Type": "compile_time",
+        "DisplayName": "Top Screens Data"
+      },
+      "Tags": []
+    }
+]

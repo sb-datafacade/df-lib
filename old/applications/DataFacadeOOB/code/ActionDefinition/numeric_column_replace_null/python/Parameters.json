@@ -1,0 +1,35 @@
+[
+    {
+        "Parameter": {
+            "Datatype": "pandas_dataframe",
+            "Tag": "data",
+            "ParameterName": "df",
+            "Type": "run_time",
+            "DisplayName": "Source Data Table",
+        "Description": "Choose the data table on which you want to apply this action"
+        },
+        "Tags": ["TableContainsNullValues"]
+    },
+    {
+        "Parameter": {
+            "Datatype": "column_names_list",
+            "ParameterName": "column_names",
+            "Type": "compile_time",
+            "DisplayName": "Choose The Columns",
+            "Description": "List of column(data type must be integer or float)  names for which you want missing value imputation"
+        },
+        "Tags": ["Floating", "Integer"]
+    },
+    {
+        "Parameter": {
+            "Datatype": "float",
+            "Tag": "other",
+            "ParameterName": "replacement_value",
+            "Type": "compile_time",
+            "DisplayName": "Specify The Replacement Value",
+            "Description": "Please mention the value which you want to replace  with null values",
+            "DefaultParameterValue": "0.0"
+        },
+        "Tags": []
+    }
+]

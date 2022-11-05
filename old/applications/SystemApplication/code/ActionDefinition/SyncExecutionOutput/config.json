@@ -1,0 +1,11 @@
+{
+    "Action": {
+        "Id":"21",
+        "ActionType": "SyncActionExecutionOutput", 
+        "DisplayName":"SyncExecutionOutput", 
+        "OutputDestination": "job", 
+        "IsVisibleOnUI": false, 
+        "ActionGroup": "SystemAction", 
+        "DefaultActionTemplateId": "14"
+    }
+}

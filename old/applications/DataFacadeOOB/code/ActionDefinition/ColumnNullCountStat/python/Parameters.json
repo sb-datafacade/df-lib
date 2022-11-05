@@ -1,0 +1,25 @@
+[
+    {
+        "Parameter": {
+            "Id": "c704686e-b7b8-44b2-ac18-b1c7c27b15fe",
+            "TemplateId": "40f58cfe-6766-4de3-bf1a-a3a9de8a433a",
+            "Datatype": "pandas_dataframe",
+            "DefaultParameterValue": "SELECT * from {table_name}",
+            "Tag": "data",
+            "ParameterName": "df",
+            "Type": "run_time"
+        },
+        "Tags": []
+    },
+    {
+        "Parameter": {
+            "Id": "5ba541c0-5903-4e37-bf9f-3255f9804efc",
+            "TemplateId": "40f58cfe-6766-4de3-bf1a-a3a9de8a433a",
+            "Datatype": "string",
+            "Tag": "column_name",
+            "ParameterName": "col",
+            "Type": "compile_time"
+        },
+        "Tags": ["StringColumn", "IntegerColumn", "FloatColumn"]
+    }
+]

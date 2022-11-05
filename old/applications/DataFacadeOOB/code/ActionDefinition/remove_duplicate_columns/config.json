@@ -1,0 +1,9 @@
+{
+    "Action": {
+      "PresentationFormat" : "table_value",
+      "ActionType" : "Profiling",
+      "ActionGroup": "DataCleansing",
+      "Description": "Action which drops columns if they have identical data"
+    },
+    "Tags": []
+}

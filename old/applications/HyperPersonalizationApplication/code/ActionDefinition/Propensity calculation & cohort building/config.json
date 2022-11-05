@@ -1,0 +1,6 @@
+{
+    "Action": {
+      "ActionType" : "Workflow",
+      "Description": "This application analysis the behaviour of the user in the app in the free trial to determine the probability of conversion to a paid subscriber."
+    }
+}

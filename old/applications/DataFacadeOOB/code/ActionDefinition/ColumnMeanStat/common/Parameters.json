@@ -1,0 +1,24 @@
+[
+    {
+        "Parameter": {
+            "Id": "889ca5b7-aee6-4e82-bdf6-e2e096eae18e",
+            "TemplateId": "88f568f8-94c1-46d2-ad0e-bc62b19763bc",
+            "Datatype": "string",
+            "Tag": "table_name",
+            "ParameterName": "table_name",
+            "Type": "compile_time"
+        },
+        "Tags": []
+    },
+    {
+        "Parameter": {
+            "Id": "8ef2e2ad-b3bc-4d5f-a467-093c4b68ddc6",
+            "TemplateId": "88f568f8-94c1-46d2-ad0e-bc62b19763bc",
+            "Datatype": "string",
+            "Tag": "column_name",
+            "ParameterName": "column_name",
+            "Type": "compile_time"
+        },
+        "Tags": ["FloatColumn", "IntegerColumn"]
+    }
+]

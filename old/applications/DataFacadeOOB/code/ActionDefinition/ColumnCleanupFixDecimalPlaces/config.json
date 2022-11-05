@@ -1,0 +1,10 @@
+{
+	"Action": {
+		"Id" : "a174769d-fd17-461f-bb64-8ca471e4ae4f",
+		"PresentationFormat" : "table_value",
+		"OutputFormat" : "table_value",
+		"DefaultActionTemplateId" : "67e531a8-ecad-47a4-9564-7063688c81db",
+		"ActionType" : "Profiling",
+		"ActionGroup": "EncodeCategorical"
+	}
+}

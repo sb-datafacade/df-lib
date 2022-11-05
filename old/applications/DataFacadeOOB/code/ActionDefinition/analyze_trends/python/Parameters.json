@@ -1,0 +1,43 @@
+[
+    {
+      "Parameter": {
+        "Datatype": "pandas_dataframe",
+        "Tag": "data",
+        "ParameterName": "data",
+        "Type": "compile_time"
+      },
+      "Tags": []
+    },
+    {
+    "Parameter": {
+      "Datatype": "column_names_list",
+      "ParameterName": "dim_columns",
+      "Type": "compile_time"
+    },
+    "Tags": []
+  },{
+    "Parameter": {
+      "ParameterName": "target_col",
+      "Type": "compile_time",
+      "Datatype": "string",
+      "Tag": "column_name"
+    },
+    "Tags": []
+  },
+  {
+    "Parameter": {
+      "Datatype": "string",
+      "ParameterName": "agg_function",
+      "Type": "compile_time"
+    },
+    "Tags": []
+  },
+  {
+    "Parameter": {
+      "Datatype": "string",
+      "ParameterName": "filter_query",
+      "Type": "compile_time"
+    },
+    "Tags": []
+  }
+]

@@ -1,0 +1,161 @@
+[
+    {
+      "DisplayName": "convert_source_data_to_model_schema",
+      "ParameterValues": {
+          "Data": {
+            "GlobalParameterId": "Source Data"
+          },
+          "CustomerID": {
+              "GlobalParameterId": "Customer-ID"
+          },
+          "Interaction_ID": {
+              "GlobalParameterId": "Interaction ID"
+          },
+          "Interaction_Date": {
+              "GlobalParameterId": "Interaction Date"
+          },
+          "Interaction_Value": {
+              "GlobalParameterId": "Interaction Value"
+          }
+      },
+      "stageName": "Data Pre-processing"
+    },
+    {
+        "DisplayName": "convert_columns_to_date_time_format",
+        "ParameterValues": {
+            "data": {
+                "SourceExecutionId": "convert_source_data_to_model_schema-0"
+            },
+            "date_columns": {
+                "ParameterValue": "ts_interaction"
+            }
+        },
+        "stageName": "Data Pre-processing"
+    },
+    {
+        "DisplayName": "rfm_calculation",
+        "ParameterValues": {
+            "rfm_data": {
+                "SourceExecutionId": "convert_columns_to_date_time_format-1"
+            },
+            "id_customer": {
+                "GlobalParameterId": "Customer-ID"
+            },
+            "ts_interaction": {
+                "ParameterValue": "ts_interaction"
+            },
+            "id_interaction": {
+                "ParameterValue": "id_interaction"
+            },
+            "n_interaction_value": {
+                "ParameterValue": "n_interaction_value"
+            }
+        },
+        "stageName": "Calculations"
+    },
+    {
+        "DisplayName": "clv_churn_rate_calculation",
+        "ParameterValues": {
+            "rfm_table": {
+                "SourceExecutionId": "rfm_calculation-2"
+            },
+            "customer_id_column": {
+                "GlobalParameterId": "Customer-ID"
+            },
+            "recency_column": {
+                "ParameterValue": "Recency"
+            },
+            "frequency_column": {
+                "ParameterValue": "Frequency"
+            },
+            "monetary_value_column": {
+                "ParameterValue": "Monetary"
+            },
+            "time_first_interaction": {
+                "ParameterValue": "T"
+            },
+            "Period": {
+                "ParameterValue": "6"
+            },
+            "PenalizeCoefficient": {
+                "ParameterValue": "0.1"
+            }
+        },
+        "stageName": "Calculations"
+    },
+    {
+        "DisplayName": "rfm_segmentation",
+        "ParameterValues": {
+            "rfm_table": {
+                "SourceExecutionId": "rfm_calculation-2"
+            },
+            "recency_column": {
+                "ParameterValue": "Recency"
+            },
+            "frequency_column": {
+                "ParameterValue": "Frequency"
+            },
+            "monetary_value_column": {
+                "ParameterValue": "Monetary"
+            }
+        },
+        "stageName": "Calculations"
+    },
+    {
+        "DisplayName": "rfm_segmentation_summary",
+        "ParameterValues": {
+            "rfm_segment_data": {
+                "SourceExecutionId": "rfm_segmentation-4"
+            },
+            "recency_column": {
+                "ParameterValue": "Recency"
+            },
+            "frequency_column": {
+                "ParameterValue": "Frequency"
+            },
+            "monetary_value_column": {
+                "ParameterValue": "Monetary"
+            },
+            "segment_column": {
+                "ParameterValue": "Segment"
+            }
+        },
+        "stageName": "Calculations"
+    },
+    {
+        "DisplayName": "ml_segmentation",
+        "ParameterValues": {
+            "rfm_table": {
+                "SourceExecutionId": "rfm_calculation-2"
+            },
+            "id_customer": {
+                "GlobalParameterId": "Customer-ID"
+            },
+            "number_of_segments": {
+                "GlobalParameterId": "Number Of Segments"
+            }
+        },
+        "stageName": "Calculations"
+    },
+    {
+        "DisplayName": "ml_segmentation_summary",
+        "ParameterValues": {
+            "ml_segment_data": {
+                "SourceExecutionId": "ml_segmentation-6"
+            },
+            "recency_column": {
+                "ParameterValue": "Recency"
+            },
+            "frequency_column": {
+                "ParameterValue": "Frequency"
+            },
+            "monetary_value_column": {
+                "ParameterValue": "Monetary"
+            },
+            "segment_column": {
+                "ParameterValue": "Segment"
+            }
+        },
+        "stageName": "Calculations"
+    }
+]

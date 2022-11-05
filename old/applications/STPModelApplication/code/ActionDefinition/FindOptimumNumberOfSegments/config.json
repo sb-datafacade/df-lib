@@ -1,0 +1,6 @@
+{
+    "Action": {
+      "ActionType" : "Workflow",
+      "Description": "Workflow to find the optimum number of segments based on different metrics and plots."
+    }
+}

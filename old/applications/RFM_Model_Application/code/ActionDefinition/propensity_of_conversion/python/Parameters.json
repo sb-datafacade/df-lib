@@ -1,0 +1,38 @@
+[
+    {
+      "Parameter": {
+        "Datatype": "pandas_dataframe",
+        "Tag": "data",
+        "ParameterName": "Data",
+        "Type": "compile_time"
+      },
+      "Tags": []
+    },
+    {
+        "Parameter": {
+            "Datatype": "int",
+            "Tag": "other",
+            "ParameterName": "Selected_Segment",
+            "Type": "compile_time"  
+        },
+        "Tags": []
+    },
+    {
+        "Parameter": {
+            "Datatype": "int",
+            "Tag": "other",
+            "ParameterName": "Targeted_Segment",
+            "Type": "compile_time"  
+        },
+        "Tags": []
+    },
+    {
+        "Parameter": {
+            "Datatype": "int",
+            "Tag": "other",
+            "ParameterName": "Number_Of_Points",
+            "Type": "compile_time"  
+        },
+        "Tags": []
+    }
+]

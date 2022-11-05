@@ -1,0 +1,21 @@
+[
+  {
+    "Parameter": {
+      "Datatype": "pandas_dataframe",
+      "Tag": "data",
+      "ParameterName": "data",
+      "Type": "compile_time"
+    },
+    "Tags": []
+  },
+  {
+    "Parameter": {
+      "Datatype": "string",
+      "Tag": "column_name",
+      "ParameterName": "segment_column",
+      "Type": "run_time",
+      "DefaultParameterValue": "Segment"
+    },
+    "Tags": []
+   }
+]

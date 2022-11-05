@@ -1,0 +1,19 @@
+[
+  {
+    "Parameter": {
+      "Datatype": "pandas_dataframe",
+      "Tag": "data",
+      "ParameterName": "data",
+      "Type": "run_time"
+    },
+    "Tags": []
+  },
+  {
+    "Parameter": {
+      "Datatype": "column_names_list",
+      "ParameterName": "json_columns",
+      "Type": "run_time"
+    },
+    "Tags": []
+  }
+]

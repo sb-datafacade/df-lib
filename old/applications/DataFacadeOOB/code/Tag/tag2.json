@@ -1,0 +1,8 @@
+{
+  "Id": "b9a4bbd0-768b-46c5-9666-bc8ec37418d9",
+  "Name": "OutOfBoxCheck",
+  "TagGroup": "OOB",
+  "Scope": "Table",
+  "CreatedBy": "DataFacade",
+  "Description": "Runs OOB Checks for Tables"
+}

@@ -1,0 +1,9 @@
+{
+    "Action": {
+      "PresentationFormat" : "Object",
+      "ActionType" : "Profiling",
+      "ActionGroup": "TimeSeriesForecast",
+      "Description": "Action to resample any timeseries data"
+    },
+    "Tags": []
+}

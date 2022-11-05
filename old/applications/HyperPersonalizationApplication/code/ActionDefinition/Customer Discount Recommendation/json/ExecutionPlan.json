@@ -1,0 +1,85 @@
+[
+   {
+      "UniqueName": "customer_discount_recommendation",
+      "DisplayName": "Discount Generator",
+      "ParameterValues": {
+        "data": {
+            "GlobalParameterId": "Transformed Customer Demographics And Physiographic Data"
+          },
+        "table_offer": {
+            "GlobalParameterId": "Fintech Data"
+          },
+          "propensity_data": {
+            "GlobalParameterId": "Propensity Table"
+          },
+        "segment_data": {
+            "GlobalParameterId": "Customer Segmentation Data"
+          },
+        "CustomerID": {
+                "ParameterValue": "User ID"
+            },
+        "propensity_column": {
+                "ParameterValue": "Propensity"
+            },
+        "offer_id": {
+                "ParameterValue": "offer_id"
+            },
+         "discount_column": {
+                "ParameterValue": "discount"
+            },
+        "segment_column": {
+                "ParameterValue": "Segment"
+            },
+        "selected_segment": {
+                "ParameterValue": "0"
+            },
+        "subscription_column": {
+                "ParameterValue": "subscribed"
+            },
+        "lower_range_discount": {
+                "GlobalParameterId": "Enter The Lower Discount"
+            },
+        "upper_range_discount": {
+                "GlobalParameterId": "Enter The Upper Discount"
+            }
+      },
+      "stageName": "Generating Discounts"
+    },
+  {
+      "UniqueName": "forecast_based_on_discount",
+      "DisplayName": "Forecast Subscription Count",
+      "ParameterValues": {
+        "data": {
+            "SourceExecutionId": "customer_discount_recommendation-0"
+          },
+        "table_offer": {
+            "GlobalParameterId": "Fintech Data"
+          },
+          "demo_phy_data": {
+            "GlobalParameterId": "Customer Demographics And Physiographic Data"
+          },
+        "discount_column": {
+                "ParameterValue": "discount"
+            },
+        "enrolment_column": {
+                "ParameterValue": "enrolled"
+            },
+        "subscription_column": {
+                "ParameterValue": "subscribed"
+            },
+        "gender_column": {
+                "ParameterValue": "SEX"
+            },
+         "income_column": {
+                "ParameterValue": "MonthlyIncome"
+            },
+        "CustomerID": {
+                "ParameterValue": "User ID"
+            },
+       "generate_forcast": {
+                "GlobalParameterId": "Do You Want To Generate Forecast On Subscription Count?"
+            }
+      },
+      "stageName": "Forecasting Subscription Count"
+    }
+]

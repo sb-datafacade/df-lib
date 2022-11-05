@@ -1,0 +1,13 @@
+{
+	"Action": {
+		"Id" : "7d07ff27-d296-48f6-b59e-25910c00f279",
+		"PresentationFormat" : "single_value",
+		"OutputFormat" : "table",
+		"OutputDestination" : "job",
+		"DefaultActionTemplateId" : "8be44ce1-c1f4-43f1-a3be-b98bc0d580fe",
+		"DefaultEntity" : "Table",
+		"ActionType" : "Profiling",
+		"ActionGroup": "Statistics"
+	},
+	"Tags": []
+}

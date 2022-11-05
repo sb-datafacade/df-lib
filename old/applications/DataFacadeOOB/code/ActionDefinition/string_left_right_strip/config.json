@@ -1,0 +1,10 @@
+{
+    "Action": {
+      "PresentationFormat" : "table_value",
+      "OutputFormat" : "model",
+      "ActionType" : "Profiling",
+      "ActionGroup": "FormatString",
+      "Description": "Returns a copy of the string with the leading and trailing characters removed"
+    },
+    "Tags": ["FormatString"]
+}

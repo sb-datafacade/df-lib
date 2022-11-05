@@ -1,0 +1,38 @@
+[
+    {
+      "Parameter": {
+        "Datatype": "pandas_dataframe",
+        "Tag": "data",
+        "ParameterName": "Data",
+        "Type": "compile_time"
+      },
+      "Tags": []
+    },
+    {
+        "Parameter": {
+            "Datatype": "list",
+            "Tag": "other",
+            "ParameterName": "alphanum_tag",
+            "Type": "compile_time"
+        },
+        "Tags": []
+    },
+    {
+        "Parameter": {
+            "Datatype": "float",
+            "Tag": "other",
+            "ParameterName": "thres1",
+            "Type": "compile_time"
+        },
+        "Tags": []
+    },
+    {
+        "Parameter": {
+            "Datatype": "float",
+            "Tag": "other",
+            "ParameterName": "thres2",
+            "Type": "compile_time"  
+        },
+        "Tags": []
+    }
+]

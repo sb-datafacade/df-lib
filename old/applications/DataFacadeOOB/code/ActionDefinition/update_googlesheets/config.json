@@ -1,0 +1,10 @@
+{
+    "Action": {
+      "PresentationFormat" : "table_value",
+      "OutputFormat" : "model",
+      "ActionType" : "Profiling",
+      "ActionGroup": "DataPreparation",
+      "Description": "Action to update google sheets by appending new rows."
+    },
+    "Tags": ["DataPreparation"]
+}

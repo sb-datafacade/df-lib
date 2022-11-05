@@ -1,0 +1,6 @@
+{
+    "Action": {
+      "ActionType" : "Workflow",
+      "Description": "This app uses segmentation practices (algorithms) to divide customers into smaller groups based on their specific characteristics like transaction history, behavior, age, income, and personality.Segmentation helps the marketing team to target specific customer segments (based on factors like segment size, CLTV etc) with marketing campaigns tailored to their preferences. The marketing team can adjust their product positioning according to the desires and expectations of each customer segment."
+    }
+}

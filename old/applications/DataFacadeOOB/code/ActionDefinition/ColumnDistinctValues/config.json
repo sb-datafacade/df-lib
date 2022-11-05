@@ -1,0 +1,10 @@
+{
+	"Action": {
+        "Id": "3ed84164-8ee1-4da1-850d-9f6a211a3a47",
+        "DefaultActionTemplateId": "d57718bf-f499-4bfd-a34e-62f5ba4aebfe",
+		"PresentationFormat" : "single_value",
+		"OutputFormat" : "single_value",
+		"ActionType" : "InternalProfiling"
+	},
+	"Tags": ["OutOfBoxProfiling"]
+}

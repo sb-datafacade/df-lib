@@ -1,0 +1,59 @@
+[
+    {
+      "Parameter": {
+        "Datatype": "pandas_dataframe",
+        "Tag": "data",
+        "ParameterName": "df1",
+        "Type": "compile_time",
+        "DisplayName": "Source Data-1",
+        "Description": "First Source Data User Wants To Merge"
+      },
+      "Tags": []
+    },
+    {
+      "Parameter": {
+        "Datatype": "pandas_dataframe",
+        "Tag": "data",
+        "ParameterName": "df2",
+        "Type": "compile_time",
+        "DisplayName": "Source Data-2",
+        "Description": "Second Source Data User Wants To Merge"
+      },
+      "Tags": []
+    },
+    {
+    "Parameter": {
+      "Datatype": "string",
+      "Tag": "column_name",
+      "ParameterName": "df1_key",
+      "Type": "run_time",
+      "DisplayName": "Primary Key-1",
+      "Description": "Primary Key Of First Source Data"
+    },
+    "Tags": []
+  },
+  {
+    "Parameter": {
+      "Datatype": "string",
+      "Tag": "column_name",
+      "ParameterName": "df2_key",
+      "Type": "run_time",
+      "DisplayName": "Primary Key-2",
+      "Description": "Primary Key Of Second Source Data"
+    },
+    "Tags": []
+  },
+  {
+    "Parameter": {
+      "Datatype": "string",
+      "Tag": "option_set_single",
+      "ParameterName": "join_type",
+      "Type": "run_time",
+      "OptionSetValues":"left,right,inner,outer,cross",
+      "DisplayName": "Type Of Join",
+      "Description": "Type Of Join User Wants To Use",
+      "DefaultParameterValue": "left"
+    },
+    "Tags": []
+   }
+]

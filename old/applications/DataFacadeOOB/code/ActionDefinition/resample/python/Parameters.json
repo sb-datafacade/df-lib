@@ -1,0 +1,60 @@
+[
+    {
+      "Parameter": {
+        "Datatype": "pandas_dataframe",
+        "Tag": "data",
+        "ParameterName": "data",
+        "Type": "compile_time",
+        "DisplayName": "Source Data Table",
+        "Description": "Choose the data table on which you want to apply this action"
+      },
+      "Tags": []
+    },
+   {
+    "Parameter": {
+      "Datatype": "string",
+      "Tag": "option_set_single",
+      "ParameterName": "frequency",
+      "Type": "run_time",
+      "OptionSetValues":"Month,Calendar Day,Weekly,Business Day,Hourly,Minutes,Seconds,Yearly",
+      "DisplayName": "Select Frequency Type",
+      "Description": "Please choose the frequency type of the time frame in which you want to do the resample of the time series data "
+    },
+    "Tags": []
+   },
+   {
+    "Parameter": {
+      "Datatype": "string",
+      "Tag": "option_set_single",
+      "ParameterName": "time_stamp_format",
+      "Type": "compile_time",
+      "OptionSetValues": "Infer,%m/%d/%Y,%m/%d/%y,%d/%m/%Y,%d/%m/%y,%d-%m-%Y,%d-%m-%y,%m-%d-%Y,%m-%d-%y,%Y-%m-%d,%Y-%m-%d %H:%M:%S,H:%M:%S,%B %Y,%B: %Y,%m-%d-%Y,%d-%m-%Y %H:%M:%S",
+      "DisplayName": "Select The Time Stamp Format",
+      "Description": "Please mention the time stamp format of the date-time column, use infer if you want the action to infer the date time format from the data"
+    },
+    "Tags": []
+   },
+   {
+    "Parameter": {
+      "Datatype": "int",
+      "ParameterName": "period",
+      "Type": "run_time",
+      "DisplayName": "Specify The Period",
+      "Description": "Please mention  the period of the frequency for example if you want to resample with frequency of 3 months put input as 3",
+      "DefaultParameterValue": "1"
+    },
+    "Tags": []
+   },
+   {
+    "Parameter": {
+      "Datatype": "string",
+      "Tag": "option_set_single",
+      "ParameterName": "resample_method",
+      "Type": "run_time",
+      "OptionSetValues":"Up-sample,Down-sample",
+      "DisplayName": "Chose Resample Method",
+      "Description": "Pleas mention the resample method you want to apply on the time series,up-sample means decreasing the time interval and down-sample means increasing the time interval"
+    },
+    "Tags": []
+   }
+]

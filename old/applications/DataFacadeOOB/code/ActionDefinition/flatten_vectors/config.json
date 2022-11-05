@@ -1,0 +1,10 @@
+{
+    "Action": {
+      "PresentationFormat" : "Object",
+      "OutputFormat" : "model",
+      "ActionType" : "Profiling",
+      "ActionGroup": "DataTransform",
+      "Description": "Action to transform to flatten a single column containing vector data."
+    },
+   "Tags": ["DataTransform"]
+}

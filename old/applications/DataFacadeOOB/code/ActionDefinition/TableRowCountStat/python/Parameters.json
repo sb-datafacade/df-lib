@@ -1,0 +1,14 @@
+[
+    {
+        "Parameter": {
+            "Id": "72bf34fd-9290-4227-a8ce-14e9f393b12a",
+            "TemplateId": "d2393603-183c-453c-8f73-d9870f8b13dd",
+            "Datatype": "pandas_dataframe",
+            "DefaultParameterValue": "SELECT * from {table_name}",
+            "Tag": "data",
+            "ParameterName": "df",
+            "Type": "run_time"
+        },
+        "Tags": []
+    }
+]

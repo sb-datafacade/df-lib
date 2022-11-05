@@ -1,0 +1,8 @@
+{
+  "Id": "7ad6ac6a-c444-4684-8106-b00b032cd1b5",
+  "Name": "IntegerColumn",
+  "TagGroup": "ColumnDatatype",
+  "Scope": "Column",
+  "CreatedBy": "DataFacade",
+  "Description": "Runs OOB Profiling for Tables"
+}

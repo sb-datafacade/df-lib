@@ -1,0 +1,9 @@
+{
+    "Action": {
+        "Id":"24",
+        "ActionType": "Sync", 
+        "TemplateType":"Sync DBT Repo", 
+        "IsVisibleOnUI": false
+    }
+}
+

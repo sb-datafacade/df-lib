@@ -1,0 +1,10 @@
+{
+    "Action": {
+      "PresentationFormat" : "table_value",
+      "OutputFormat" : "model",
+      "ActionType" : "Profiling",
+      "ActionGroup": "FormatString",
+      "Description": "Right pad the string with a given fill character to the given width. If the string is longer than the given width, then the output is the shortened version of the string"
+    },
+    "Tags": ["FormatString"]
+}

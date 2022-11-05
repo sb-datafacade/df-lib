@@ -1,0 +1,10 @@
+{
+    "Action": {
+      "PresentationFormat" : "table_value",
+      "OutputFormat" : "model",
+      "ActionType" : "Profiling",
+      "ActionGroup": "HandleMissing",
+      "Description": "Action to drop columns that have missing values. "
+    },
+    "Tags": ["DataTransform"]
+}

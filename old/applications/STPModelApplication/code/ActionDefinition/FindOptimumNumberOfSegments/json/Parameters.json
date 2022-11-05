@@ -1,0 +1,58 @@
+[
+    {
+      "Parameter": {
+        "Datatype": "pandas_dataframe",
+        "Tag": "data",
+        "ParameterName": "Source Data",
+        "Type": "run_time",
+        "DisplayName": "Source Data",
+        "Description": "Select the source data table from the dropdown. This table contains the raw data on which you want to run segmentation. This could be sales data, survey data, feedback data collected from customers. It could also be demographic, psycho-graphic, firmographic or behavioral data of the customers."
+      },
+      "Tags": []
+    },
+    {
+        "Parameter": {
+          "Datatype": "column_names_list",
+          "ParameterName": "Customer ID",
+          "Type": "run_time",
+          "DisplayName": "Customer ID (Optional)",
+        "Description": "Customer ID is the column in the data set with customer identification number, phone number or email id that uniquely identifies the customer."
+      },
+        "Tags": []
+    },
+    {
+        "Parameter": {
+            "Datatype": "int",
+            "ParameterName": "Starting Segment Choice",
+            "Type": "run_time",
+          "DisplayName": "Starting Segment Choice",
+          "Description": "Please specify number of segment to start with (must be greater than 1).",
+          "DefaultParameterValue": "2"
+        },
+        "Tags": []
+    },
+    {
+        "Parameter": {
+            "Datatype": "int",
+            "ParameterName": "End Segment Choice",
+            "Type": "run_time",
+          "DisplayName": "End Segment Choice",
+          "Description": "Please specify number of segment for which the method will run at max with.",
+          "DefaultParameterValue": "20"
+        },
+        "Tags": []
+    },
+    {
+        "Parameter": {
+          "Datatype": "string",
+          "Tag": "option_set_single",
+          "ParameterName": "Segmentation Method",
+          "Type": "run_time",
+          "OptionSetValues": "Gaussian Mixture Model,Hierarchical/Agglomerative,Kmeans",
+          "DisplayName": "Segmentation Method",
+          "Description": "Segmentation methods are the different algorithms that can be applied to generate segmentation using source data.",
+          "DefaultParameterValue": "Kmeans"
+        },
+        "Tags": []
+    }
+]

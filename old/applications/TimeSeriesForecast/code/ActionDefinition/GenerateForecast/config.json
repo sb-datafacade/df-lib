@@ -1,0 +1,8 @@
+{
+  "Action": {
+    "PresentationFormat": "table_value",
+    "ActionType": "Profiling",
+    "Description": "Uses exponential smoothing and auto arima for generating forecast on historical data",
+    "ActionGroup": "TimeSeriesForecast"
+  }
+}

@@ -1,0 +1,14 @@
+[
+    {
+        "Parameter": {
+            "Id": "64079ece-4b59-45a0-82b4-d37f9db4fb20",
+            "TemplateId": "dc3f06fd-66ae-418b-9b48-1c8074b05a85",
+            "Datatype": "string",
+            "Tag": "table_name",
+            "ParameterName": "table_name",
+            "ActionDefinitionId" : "1c710aa9-99fb-4e1b-8d88-20a770813948",
+            "Type": "compile_time"
+        },
+        "Tags": []
+    }
+]

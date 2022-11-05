@@ -1,0 +1,10 @@
+{
+    "Action": {
+      "PresentationFormat" : "table_value",
+      "OutputFormat" : "model",
+      "ActionType" : "Profiling",
+      "ActionGroup": "FormatString",
+      "Description": "Converts all uppercase characters to lowercase and all lowercase characters to upper case "
+    },
+    "Tags": ["FormatString"]
+}

@@ -1,0 +1,7 @@
+{
+  "Action": {
+    "ActionType": "AutoFlow",
+    "Description": "Creates a Cleanup flow for your table based on table and columns tags",
+    "ActionGroup": "DataCleansing"
+  }
+}

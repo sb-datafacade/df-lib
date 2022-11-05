@@ -1,0 +1,11 @@
+{
+	"Action": {
+		"Id" : "5915e917-a4a7-4df7-9702-2d7fff5b4b1f",
+		"PresentationFormat" : "table_value",
+		"OutputFormat" : "table",
+		"DefaultActionTemplateId" : "q2393603-183c-453c-8f73-d9870f8b13dd",
+		"DefaultEntity" : "Table",
+		"ActionType" : "Profiling"
+	},
+	"Tags": ["OutOfBoxProfiling"]
+}

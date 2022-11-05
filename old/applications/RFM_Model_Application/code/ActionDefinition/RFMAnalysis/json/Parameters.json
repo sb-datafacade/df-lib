@@ -1,0 +1,67 @@
+[
+    {
+      "Parameter": {
+        "Datatype": "pandas_dataframe",
+        "Tag": "data",
+        "ParameterName": "Source Data",
+        "Type": "run_time",
+        "DisplayName": "Source Data",
+        "Description": "Select the source data table from the dropdown. This table contains the transaction details of the customers."
+      },
+      "Tags": []
+    },
+    {
+        "Parameter": {
+          "Datatype": "column_names_list",
+          "ParameterName": "Customer-ID",
+          "Type": "run_time",
+          "DisplayName": "Customer ID",
+          "Description": " Customer ID is the column(s) in the data set with customer identification number, phone number or email id that uniquely identifies the customer."
+        },
+        "Tags": []
+    },
+    {
+        "Parameter": {
+          "Datatype": "string",
+          "Tag": "column_name",
+          "ParameterName": "Interaction ID",
+          "Type": "run_time",
+          "DisplayName": "Interaction ID",
+          "Description": "The column with the interaction identification number or interaction date time stamp that uniquely identifies the purchase."
+        },
+        "Tags": []
+    },
+    {
+        "Parameter": {
+          "Datatype": "string",
+          "Tag": "column_name",
+          "ParameterName": "Interaction Date",
+          "Type": "run_time",
+          "DisplayName": "Interaction Date",
+        "Description": " The column with the interaction date i.e date that was captured by the system when the customer made the interaction."
+        },
+        "Tags": []
+    },
+    {
+        "Parameter": {
+          "Datatype": "string",
+          "Tag": "column_name",
+          "ParameterName": "Interaction Value",
+          "Type": "run_time",
+          "DisplayName": "Interaction Value",
+        "Description": "The column with the interaction values that lists the interaction amount the customer for each interaction."
+        },
+        "Tags": []
+    },
+    {
+        "Parameter": {
+            "Datatype": "int",
+            "ParameterName": "Number Of Segments",
+            "Type": "run_time",
+            "DisplayName": "Number Of Segments",
+            "Description": "Number of segments: Here you specify the number of segments for the segmentation analysis on RFM scores. Along with RFM analysis this application provides a segmentation analysis based on the recency, frequency and monetary scores calculated for each customer. This will help you to compare the two segmentations for better understanding of your customers.",
+             "DefaultParameterValue": "6"
+        },
+        "Tags": []
+    }
+]

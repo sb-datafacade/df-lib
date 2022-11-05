@@ -1,0 +1,1 @@
+SELECT  QualifiedApiName, DataType FROM FieldDefinition WHERE EntityDefinition.QualifiedApiName = {QualifiedApiName}

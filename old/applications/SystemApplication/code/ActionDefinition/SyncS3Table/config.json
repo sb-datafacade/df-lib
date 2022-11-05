@@ -1,0 +1,8 @@
+{
+    "Action": {
+        "Id":"12", 
+        "UniqueName":"SyncS3Table", 
+        "ActionType":"SyncTable", 
+        "IsVisibleOnUI": false
+    }
+}

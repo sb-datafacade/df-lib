@@ -1,0 +1,48 @@
+[
+  {
+    "Parameter": {
+      "Datatype": "pandas_dataframe",
+      "Tag": "data",
+      "ParameterName": "df",
+      "Type": "run_time"
+    },
+    "Tags": []
+  },
+  {
+    "Parameter": {
+      "Datatype": "int",
+      "ParameterName": "forecast_period",
+      "Type": "run_time"
+    },
+    "Tags": []
+  },
+  {
+    "Parameter": {
+      "Datatype": "string",
+      "Tag": "option_set_single",
+      "ParameterName": "frequency",
+      "Type": "run_time",
+      "OptionSetValues":"Month,Calendar Day,Weekly,Business Day,Hourly,Minutes,Seconds,Yearly"
+    },
+    "Tags": []
+   },
+   {
+    "Parameter": {
+      "Datatype": "int",
+      "ParameterName": "period",
+      "Type": "run_time"
+    },
+    "Tags": []
+   },
+  {
+    "Parameter": {
+      "Datatype": "int",
+      "ParameterName": "sample_data_count",
+      "Description": "Number of rows you want to take to train the forecast model",
+      "Tag": "option_set_single",
+      "OptionSetValues": "1000,2000,3000,4000,5000",
+      "Type": "compile_time"
+    },
+    "Tags": []
+   }
+]

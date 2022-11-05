@@ -1,0 +1,19 @@
+[
+  {
+    "Parameter": {
+      "Datatype": "pandas_dataframe",
+      "Tag": "data",
+      "ParameterName": "df",
+      "Type": "run_time"
+    },
+    "Tags": []
+  },
+  {
+    "Parameter": {
+      "Datatype": "string",
+      "Tag": "column_name",
+      "ParameterName": "timestamp_column"
+    },
+    "Tags": ["TimestampColumn"]
+  }
+]

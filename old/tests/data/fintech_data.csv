@@ -1,0 +1,22 @@
+user,first_open,dayofweek,hour,age,screen_list,numscreens,minigame,used_premium_feature,enrolled,enrolled_date,liked,subscribed
+154536,12/27/2012,3, 02:00:00,23,"idscreen,joinscreen,Cycle,product_review,ScanPreview,VerifyDateOfBirth,VerifyPhone,VerifyToken,ProfileVerifySSN,Loan2,Settings,ForgotPassword,Login",15,0,0,0,,0,0
+116034,12/2/2012,6, 01:00:00,24,"joinscreen,product_review,product_review2,ScanPreview,VerifyDateOfBirth,location,VerifyCountry,VerifyPhone,VerifyToken,Institutions,Loan2",13,0,0,0,,0,0
+56270,3/19/2013,1, 19:00:00,23,"Splash,Cycle,Loan",3,0,1,0,,1,1
+364344,7/5/2013,4, 16:00:00,28,"product_review,Home,product_review,Loan3,Finances,Credit3,ReferralContainer,Leaderboard,Rewards,RewardDetail,ScanPreview,location,VerifyDateOfBirth,VerifyPhone,VerifySSN,Credit1,Credit2",40,0,0,1,7/5/2013,0,0
+316132,2/26/2013,1, 18:00:00,31,"idscreen,joinscreen,Cycle,Credit3Container,ScanPreview,VerifyPhone,VerifySSN,Credit1,Loan2,Home,Institutions,SelectInstitution,BankVerification,ReferralContainer,product_review,product_review2,VerifyCountry,VerifyToken,product_review",32,0,0,1,2/26/2013,1,0
+240067,4/3/2013,2, 09:00:00,20,"idscreen,Cycle,Home,ScanPreview,VerifyPhone,VerifySSN,Credit1,Credit3Dashboard,Loan2,Institutions,product_review,product_review,product_review3",14,0,0,1,4/3/2013,0,0
+116493,12/25/2012,1, 02:00:00,35,"product_review,product_review2,ScanPreview",3,0,0,0,,0,0
+271120,12/11/2012,1, 03:00:00,26,"Splash,Cycle,Home,Credit3Container,Credit3Dashboard,Loan2,product_review,product_review2,ScanPreview,VerifyCountry,VerifyPhone,VerifyToken,product_review,product_review,SelectInstitution,BankVerification,TransactionList",41,0,1,0,,0,1
+252276,3/20/2013,2, 14:00:00,29,"product_review,product_review2,ScanPreview,VerifyCountry,VerifyPhone,VerifyToken,VerifySSN,product_review,SelectInstitution,BankVerification,Institutions,RewardsContainer,ReferralContainer,Home,Loan2,location,product_review,product_review,product_review,product_review,Loan4,product_review,product_review,product_review,product_review,product_review,product_review",33,1,1,1,4/27/2013,0,0
+128061,4/26/2013,4, 18:00:00,26,"Home,Loan2,product_review,product_review,product_review3,ScanPreview,VerifyDateOfBirth,location,VerifyCountry,VerifyPhone,VerifyToken,product_review,product_review,VerifySSN,product_review,SelectInstitution,BankVerification",19,0,0,1,4/26/2013,0,1
+40849,5/14/2013,1, 04:00:00,39,"Splash,idscreen,Home,RewardsContainer,Settings,product_review,Leaderboard,Loan2,product_review",14,0,0,1,5/15/2013,0,0
+73455,5/28/2013,1, 11:00:00,32,"product_review,Home,Loan2,Credit3Container,VerifyPhone,Credit3Dashboard,Institutions,SelectInstitution,product_review,ScanPreview,VerifyCountry,VerifyToken,product_review,product_review,BankVerification,CC1,CC1Category",25,1,1,0,,0,0
+120519,12/17/2012,0, 06:00:00,25,"idscreen,joinscreen,Cycle,product_review,product_review2,ScanPreview,VerifyCountry,VerifyToken,VerifyPhone",11,0,0,0,,0,1
+304303,5/25/2013,5, 19:00:00,23,"Alerts,ProfilePage,Home,Credit3Container",4,0,0,1,6/18/2013,0,1
+360393,2/18/2013,0, 04:00:00,17,"joinscreen,product_review,product_review2,ScanPreview,Home",9,0,0,0,,0,0
+145277,2/2/2013,5, 18:00:00,25,"idscreen,joinscreen,Cycle,Loan2,product_review,product_review2,VerifyDateOfBirth,location,VerifyCountry,VerifyPhone,VerifyToken,VerifySSN,product_review,SelectInstitution,BankVerification",26,1,0,1,4/29/2013,0,0
+100664,7/7/2013,6, 16:00:00,21,"product_review,product_review,product_review,product_review,VerifyDateOfBirth,location",6,0,0,1,7/8/2013,0,0
+60645,2/2/2013,5, 21:00:00,55,"joinscreen,Cycle,product_review,Loan2,product_review2,VerifyDateOfBirth,location,VerifyCountry,VerifyPhone,VerifyToken,VerifySSN,product_review,SelectInstitution,BankVerification",20,0,0,1,2/11/2013,0,1
+1504,5/10/2013,4, 05:00:00,32,"Splash,product_review,Home,Loan2,product_review,product_review,product_review3,ScanPreview,VerifyDateOfBirth,location,VerifyCountry,VerifyPhone,VerifyToken",15,0,0,1,5/11/2013,1,0
+43819,7/6/2013,5, 17:00:00,25,"idscreen,Loan3,product_review,product_review,Home",5,0,0,1,7/6/2013,0,0
+238854,5/24/2013,4, 09:00:00,28,"Splash,idscreen,Cycle,Home,Loan2,ProfilePage,BankVerification",8,0,1,1,5/26/2013,0,0

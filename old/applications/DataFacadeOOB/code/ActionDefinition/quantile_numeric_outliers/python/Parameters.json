@@ -1,0 +1,58 @@
+[
+    {
+      "Parameter": {
+        "Datatype": "pandas_dataframe",
+        "Tag": "data",
+        "ParameterName": "data",
+        "Type": "compile_time",
+        "DisplayName": "Source Data Table",
+        "Description": "Choose the data table on which you want to apply this action"
+      },
+      "Tags": []
+    },
+    {
+    "Parameter": {
+      "Datatype": "string",
+      "Tag": "column_name",
+      "ParameterName": "column",
+      "Type": "run_time",
+      "DisplayName": "Choose The Column",
+      "Description": "Name of the column for which you want identify and handel outliers"
+    },
+    "Tags": []
+   },
+   {
+    "Parameter": {
+      "Datatype": "int",
+      "ParameterName": "lower_quantile",
+      "Type": "run_time",
+      "DisplayName": "Specify The Lower Quantile",
+      "Description": "Please mention the quantile value which will be used in identifying the outliers, i.e. if any value is less than that quantile value of the column values, it will be  identified as outlier",
+      "DefaultParameterValue": "25"
+    },
+    "Tags": []
+   },
+   {
+    "Parameter": {
+      "Datatype": "int",
+      "ParameterName": "upper_quantile",
+      "Type": "run_time",
+      "DisplayName": "Specify The Upper Quantile",
+      "Description": "Please mention the quantile value which will be used in identifying the outliers, i.e. if any value is less than that quantile value of the column values, it will be  identified as outlier",
+      "DefaultParameterValue": "75"
+    },
+    "Tags": []
+   },
+   {
+    "Parameter": {
+      "Datatype": "string",
+      "Tag": "option_set_single",
+      "ParameterName": "fix_method",
+      "Type": "run_time",
+      "OptionSetValues":"clip,remove,invalidate",
+      "DisplayName": "Choose The Method",
+      "Description": "Please chose the method for handling outliers, clip means replace outliers with threshold values, remove means drop the outliers from the data,invalidate means replace the outliers with null"
+    },
+    "Tags": []
+   }
+]

@@ -1,0 +1,10 @@
+{
+    "Action": {
+      "PresentationFormat" : "table_value",
+      "OutputFormat" : "model",
+      "ActionType" : "Profiling",
+      "ActionGroup": "FormatString",
+      "Description": "Removes given symbol from a string. All listed characters will be removed"
+    },
+    "Tags": ["FormatString"]
+}

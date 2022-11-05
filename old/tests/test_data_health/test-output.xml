@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="0" skipped="0" tests="1" time="0.508" timestamp="2022-06-11T08:30:01.572105" hostname="Subratas-MacBook-Pro.local"><testcase classname="test_table_health_check" name="test_table_health" time="0.111" /></testsuite></testsuites>

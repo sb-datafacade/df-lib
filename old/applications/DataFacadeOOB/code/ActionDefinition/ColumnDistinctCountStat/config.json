@@ -1,0 +1,13 @@
+{
+	"Action": {
+		"Id" : "edab7177-3564-4ea9-a604-a2949a149005",
+		"PresentationFormat" : "single_value",
+		"OutputFormat" : "table",
+		"DefaultDataType" : "Any Datatype",
+		"DefaultActionTemplateId" : "db0cfd15-69e9-4b02-be2a-f74b581d22ee",
+		"DefaultEntity" : "Column",
+		"ActionType" : "Profiling",
+		"ActionGroup": "Statistics"
+	},
+	"Tags": ["OutOfBoxProfiling"]
+}

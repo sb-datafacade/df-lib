@@ -1,0 +1,37 @@
+[
+  {
+    "Parameter": {
+      "Datatype": "pandas_dataframe",
+      "Tag": "data",
+      "ParameterName": "df",
+      "Type": "run_time"
+    },
+    "Tags": []
+  },
+  {
+    "Parameter": {
+      "Datatype": "string",
+      "Tag": "column_name",
+      "ParameterName": "primary_dimension",
+      "Type": "run_time"
+    },
+    "Tags": []
+  },
+  {
+    "Parameter": {
+      "Datatype": "column_names_list",
+      "ParameterName": "timestamp_columns",
+      "Type": "run_time"
+    },
+    "Tags": []
+  },
+  {
+    "Parameter": {
+      "ParameterName": "aggregate_by",
+      "Datatype": "string",
+      "Tag": "option_set_single",
+      "OptionSetValues": "sum,mean"
+    },
+    "Tags": []
+  }
+]

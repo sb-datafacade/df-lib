@@ -1,0 +1,10 @@
+{
+    "Action": {
+      "PresentationFormat" : "Object",
+      "OutputFormat" : "model",
+      "ActionType" : "Profiling",
+      "ActionGroup": "FormatString",
+      "Description": "Action to extract values based on regex into a new column"
+    },
+    "Tags": ["FormatString"]
+}

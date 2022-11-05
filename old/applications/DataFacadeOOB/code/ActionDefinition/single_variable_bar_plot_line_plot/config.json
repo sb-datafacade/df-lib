@@ -1,0 +1,10 @@
+{
+    "Action": {
+      "PresentationFormat" : "table_value",
+      "OutputFormat" : "model",
+      "ActionType" : "Profiling",
+      "ActionGroup": "DataVisualization",
+      "Description": "Action To Generate Bar Plot/Line Plot Of A Single Categorical/Object Type Variable."
+    },
+    "Tags": ["DataVisualization"]
+}

@@ -1,0 +1,32 @@
+[
+    {
+      "DisplayName": "convert_source_data_to_stp_model_schema",
+      "ParameterValues": {
+          "Data": {
+            "GlobalParameterId": "Source Data"
+          }
+      },
+      "stageName": "Data Preparation"
+    },
+    {
+        "DisplayName": "optimum_number_of_segments",
+        "ParameterValues": {
+            "data": {
+                "SourceExecutionId": "convert_source_data_to_stp_model_schema-0"
+            },
+            "CustomerID": {
+                "GlobalParameterId": "Customer ID"
+            },
+            "start": {
+                "GlobalParameterId": "Starting Segment Choice"
+            },
+            "end": {
+                "GlobalParameterId": "End Segment Choice"
+            },
+            "method": {
+                "GlobalParameterId": "Segmentation Method"
+            }
+        },
+        "stageName": "Validation"
+    }
+]

@@ -1,0 +1,35 @@
+[
+    {
+      "Parameter": {
+        "Datatype": "pandas_dataframe",
+        "Tag": "data",
+        "ParameterName": "data",
+        "Type": "compile_time",
+        "DisplayName": "Source Data Table",
+        "Description": "Choose The Data Table On Which You Want To Apply This Action"
+      },
+      "Tags": ["TableContainsNullValues"]
+    },
+    {
+    "Parameter": {
+      "Datatype": "column_names_list",
+      "ParameterName": "columns",
+      "Type": "run_time",
+      "DisplayName": "Choose The Columns",
+      "Description": "List of columns on which you want missing value imputation"
+    },
+    "Tags": ["Integer", "Floating"]
+    },
+    {
+    "Parameter": {
+      "Datatype": "string",
+      "Tag": "option_set_single",
+      "ParameterName": "algorithm",
+      "Type": "run_time",
+      "OptionSetValues":"mean,median,mode",
+      "DisplayName": "Choose Imputation Algorithm or Method",
+      "Description": "Please specify the imputation method (for example imputation method can be mean,median or mode)"
+    },
+    "Tags": []
+   }
+]

@@ -1,0 +1,48 @@
+[
+    {
+      "Parameter": {
+        "Datatype": "pandas_dataframe",
+        "Tag": "data",
+        "ParameterName": "data",
+        "Type": "compile_time"
+      },
+      "Tags": []
+    },
+    {
+    "Parameter": {
+      "Datatype": "string",
+      "Tag": "column_name",
+      "ParameterName": "variable_name",
+      "Type": "run_time"
+    },
+    "Tags": []
+   },
+   {
+    "Parameter": {
+      "Datatype": "string",
+      "ParameterName": "sql_filter",
+      "Type": "run_time",
+      "DefaultParameterValue": "optional"
+    },
+    "Tags": []
+   },
+   {
+    "Parameter": {
+      "Datatype": "string",
+      "ParameterName": "single_value_name",
+      "Type": "run_time",
+      "DefaultParameterValue": "optional"
+    },
+    "Tags": []
+   },
+   {
+    "Parameter": {
+      "Datatype": "string",
+      "Tag": "option_set_single",
+      "ParameterName": "value_type",
+      "Type": "run_time",
+      "OptionSetValues":"Count,Unique Count,Average,Maximum,Minimum,Median,Total"
+    },
+    "Tags": []
+   }
+]

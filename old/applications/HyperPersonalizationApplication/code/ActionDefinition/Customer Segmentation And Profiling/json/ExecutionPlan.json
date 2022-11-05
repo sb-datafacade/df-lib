@@ -1,0 +1,239 @@
+[
+    {
+      "UniqueName": "demographic_data_preparation",
+      "DisplayName": "Demographic Data Preparation",
+      "ParameterValues": {
+          "Data": {
+            "GlobalParameterId": "Demographics Data"
+          }
+      },
+      "stageName": "Customer Data Preparation"
+    },
+    {
+      "UniqueName": "physiographic_data_preparation",
+      "DisplayName": "Physiographic Data Preparation",
+      "ParameterValues": {
+          "data": {
+            "GlobalParameterId": "Physiographic Data"
+          },
+          "physiographic_column_info": {
+            "GlobalParameterId": "Physiographic Data Legend"
+          }
+      },
+      "stageName": "Customer Data Preparation"
+    },
+    {
+      "UniqueName": "merge_demographic_and_physiographic",
+      "DisplayName": "Joining Demographic And Physiographic Table",
+      "ParameterValues": {
+          "df1": {
+                "SourceExecutionId": "demographic_data_preparation-0"
+            },
+          "df2": {
+                "SourceExecutionId": "physiographic_data_preparation-1"
+            },
+          "df1_key": {
+                "ParameterValue": "User ID"
+            },
+          "df2_key": {
+                "ParameterValue": "user"
+            },
+          "join_type": {
+                "ParameterValue": "left"
+            }
+      },
+      "stageName": "Customer Data Preparation"
+    },
+    {
+        "UniqueName": "customer_segmentation",
+      "DisplayName": "Customer Segmentation",
+        "ParameterValues": {
+            "data": {
+                "SourceExecutionId": "merge_demographic_and_physiographic-2"
+            },
+            "CustomerID": {
+                "ParameterValue": "User ID"
+            },
+            "number_of_segments": {
+                "GlobalParameterId": "Number Of Segments"
+            },
+            "location": {
+                "GlobalParameterId": "Locations"
+            },
+            "propensity_data": {
+                "GlobalParameterId": "Propensity Table"
+            }
+        },
+        "stageName": "Customer Segmentation"
+    },
+    {
+        "UniqueName": "customer_segmentation_summary",
+      "DisplayName": "Customer Segmentation Summary",
+        "ParameterValues": {
+            "data": {
+                "SourceExecutionId": "customer_segmentation-3"
+            },
+            "segment_column": {
+                "ParameterValue": "Segment"
+            }
+        },
+        "stageName": "Customer Segmentation"
+    },
+    {
+        "UniqueName": "customer_segment_profiling",
+      "DisplayName": "Customer Segment Profiling",
+        "ParameterValues": {
+            "data": {
+                "SourceExecutionId": "customer_segmentation-3"
+            },
+            "CustomerID": {
+                "ParameterValue": "User ID"
+            },
+            "segment_column": {
+                "ParameterValue": "Segment"
+            }
+        },
+        "stageName": "Customer Profiling"
+    },
+    {
+        "UniqueName": "customer_five_personality_traits",
+      "DisplayName": "Physiographic Profiling",
+        "ParameterValues": {
+            "data": {
+                "SourceExecutionId": "customer_segmentation-3"
+            },
+            "psychographic_data": {
+            "GlobalParameterId": "Physiographic Data"
+          },
+            "CustomerID": {
+                "ParameterValue": "user"
+            },
+            "segment_column": {
+                "ParameterValue": "Segment"
+            }
+        },
+        "stageName": "Customer Profiling"
+    },
+    {
+        "UniqueName": "customer_frequency_summary_plot",
+      "DisplayName": "Age",
+        "ParameterValues": {
+            "data": {
+                "SourceExecutionId": "customer_segmentation-3"
+            },
+            "axis": {
+                "ParameterValue": "AGE"
+            },
+            "legend": {
+                "ParameterValue": "Segment"
+            },
+            "sql_filter": {
+                "ParameterValue": "Optional"
+            },
+            "number_of_class": {
+                "ParameterValue": "6"
+            }
+        },
+        "stageName": "Visualization"
+    },
+    {
+        "UniqueName": "customer_summary_plots",
+      "DisplayName": "Gender",
+        "ParameterValues": {
+            "data": {
+                "SourceExecutionId": "customer_segmentation-3"
+            },
+            "axis": {
+                "ParameterValue": "SEX"
+            },
+            "legend": {
+                "ParameterValue": "Segment"
+            },
+            "sql_filter": {
+                "ParameterValue": "Optional"
+            },
+            "value": {
+                "ParameterValue": "User ID"
+            },
+            "value_type": {
+                "ParameterValue": "Count"
+            }
+        },
+        "stageName": "Visualization"
+    },
+    {
+        "UniqueName": "customer_summary_plots",
+      "DisplayName": "Marital Status",
+        "ParameterValues": {
+            "data": {
+                "SourceExecutionId": "customer_segmentation-3"
+            },
+            "axis": {
+                "ParameterValue": "Marital Status"
+            },
+            "legend": {
+                "ParameterValue": "Segment"
+            },
+            "sql_filter": {
+                "ParameterValue": "Optional"
+            },
+            "value": {
+                "ParameterValue": "User ID"
+            },
+            "value_type": {
+                "ParameterValue": "Count"
+            }
+        },
+        "stageName": "Visualization"
+    },
+    {
+        "UniqueName": "customer_summary_plots",
+      "DisplayName": "Education",
+        "ParameterValues": {
+            "data": {
+                "SourceExecutionId": "customer_segmentation-3"
+            },
+            "axis": {
+                "ParameterValue": "Education"
+            },
+            "legend": {
+                "ParameterValue": "Segment"
+            },
+            "sql_filter": {
+                "ParameterValue": "Optional"
+            },
+            "value": {
+                "ParameterValue": "User ID"
+            },
+            "value_type": {
+                "ParameterValue": "Count"
+            }
+        },
+        "stageName": "Visualization"
+    },
+    {
+        "UniqueName": "customer_summary_plots",
+      "DisplayName": "City",
+        "ParameterValues": {
+            "data": {
+                "SourceExecutionId": "customer_segmentation-3"
+            },
+            "axis": {
+                "ParameterValue": "City"
+            },
+            "legend": {
+                "ParameterValue": "Segment"
+            },
+            "sql_filter": {
+                "ParameterValue": "Optional"
+            },
+            "value": {
+                "ParameterValue": "User ID"
+            },
+            "value_type": {
+                "ParameterValue": "Count"
+            }
+        },
+        "stageName": "Visualization"
+    }
+]

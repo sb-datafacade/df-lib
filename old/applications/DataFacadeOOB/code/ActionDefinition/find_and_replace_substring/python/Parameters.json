@@ -1,0 +1,43 @@
+[
+    {
+      "Parameter": {
+        "Datatype": "pandas_dataframe",
+        "Tag": "data",
+        "ParameterName": "data",
+        "Type": "compile_time",
+        "DisplayName": "Source Data Table",
+        "Description": "Choose the data table on which you want to apply this action"
+      },
+      "Tags": []
+    },
+    {
+    "Parameter": {
+      "Datatype": "column_names_list",
+      "ParameterName": "columns",
+      "Type": "run_time",
+      "DisplayName": "Choose The Columns",
+      "Description": "List of column (must be of string data type) names on which you want to apply this string format operation"
+    },
+    "Tags": []
+  },
+  {
+    "Parameter": {
+      "Datatype": "string",
+      "ParameterName": "find_str",
+      "Type": "run_time",
+      "DisplayName": "Specify The String Pattern",
+      "Description": "Please mention the string pattern in regular expression"
+    },
+    "Tags": []
+  },
+  {
+    "Parameter": {
+      "Datatype": "string",
+      "ParameterName": "replace_str",
+      "Type": "run_time",
+      "DisplayName": "Specify the String",
+      "Description": "Please mention the string you want to replace"
+    },
+    "Tags": []
+  }
+]

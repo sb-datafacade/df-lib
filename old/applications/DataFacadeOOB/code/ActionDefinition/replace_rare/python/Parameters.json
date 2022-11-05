@@ -1,0 +1,57 @@
+[
+    {
+      "Parameter": {
+        "Datatype": "pandas_dataframe",
+        "Tag": "data",
+        "ParameterName": "data",
+        "Type": "compile_time",
+        "DisplayName": "Source Data Table",
+        "Description": "Choose the data table on which you want to apply this action"
+      },
+      "Tags": []
+    },
+    {
+    "Parameter": {
+      "Datatype": "string",
+      "Tag": "column_name",
+      "ParameterName": "column",
+      "Type": "run_time",
+      "DisplayName": "Choose The Column",
+      "Description": "Name of the column (must be categorical column) for which you want identify and handel rare values"
+    },
+    "Tags": []
+   },
+   {
+    "Parameter": {
+      "Datatype": "string",
+      "Tag": "option_set_single",
+      "ParameterName": "threshold_type",
+      "Type": "run_time",
+      "OptionSetValues":"Absolute threshold,Fraction threshold,Max common categories",
+      "DisplayName": "Choose The Threshold Type",
+      "Description": "Please mention the threshold method to identify the rare values of the mentioned column, absolute threshold means you specify the threshold frequency of a category, if the frequency of that category is less than the threshold the category will be replaced by some specified value, fraction threshold means you specify the a fraction of the total frequency , if the frequency of any category is less than that threshold the category will be replaced by some specified value,max common categories means you specify the maximum number of categories for the mentioned column"
+    },
+    "Tags": []
+   },
+   {
+    "Parameter": {
+      "Datatype": "float",
+      "ParameterName": "threshold_value",
+      "Type": "run_time",
+      "DisplayName": "Specify The Threshold Value",
+      "Description": "Please specify the threshold value for the mentioned threshold type,use integer value for absolute threshold and max common categories and decimal value for fraction threshold"
+    },
+    "Tags": []
+   },
+   {
+    "Parameter": {
+      "Datatype": "string",
+      "ParameterName": "value",
+      "Type": "run_time",
+      "DisplayName": "Specify The New Category Name",
+      "Description": "Please mention the category name under which the rare values of the columns will come",
+      "DefaultParameterValue": "Others"
+    },
+    "Tags": []
+   }
+]

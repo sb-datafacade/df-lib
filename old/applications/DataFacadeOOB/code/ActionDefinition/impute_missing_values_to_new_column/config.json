@@ -1,0 +1,10 @@
+{
+    "Action": {
+      "PresentationFormat" : "table_value",
+      "OutputFormat" : "model",
+      "ActionType" : "Profiling",
+      "ActionGroup": "HandleMissing",
+      "Description": "Action to create a new column that contains imputed values where missing values were found in input categorical and numerical data. Mean and Median algorithm only works for numeric columns."
+    },
+    "Tags": ["HandleMissing"]
+}

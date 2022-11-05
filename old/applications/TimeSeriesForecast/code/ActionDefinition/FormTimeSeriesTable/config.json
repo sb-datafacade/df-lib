@@ -1,0 +1,8 @@
+{
+  "Action": {
+    "PresentationFormat": "Object",
+    "ActionType": "Profiling",
+    "Description": "Indexes the dataframe with timestamps for generating forecast",
+    "ActionGroup": "TimeSeriesForecast"
+  }
+}

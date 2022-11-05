@@ -1,0 +1,1 @@
+UPDATE {table_name} SET {column_name}='{column_value}' WHERE datafacadeindex={index}

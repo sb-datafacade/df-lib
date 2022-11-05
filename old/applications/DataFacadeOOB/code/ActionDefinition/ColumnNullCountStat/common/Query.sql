@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM {table_name} where {column_name} is Null

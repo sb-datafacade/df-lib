@@ -1,0 +1,24 @@
+[
+    {
+      "Parameter": {
+        "Datatype": "pandas_dataframe",
+        "Tag": "data",
+        "ParameterName": "data",
+        "Type": "compile_time",
+         "DisplayName": "Source Data Table",
+        "Description": "Choose The Data Table On Which You Want To Apply This Action"
+      },
+      "Tags": ["TableContainsNullValues"]
+    },
+    {
+    "Parameter": {
+      "Datatype": "float",
+      "ParameterName": "null_percentage",
+      "Type": "run_time",
+      "DisplayName": "Threshold Null Percentage",
+      "Description": "Drop rows if null percentage is greater than this value",
+      "DefaultParameterValue": "90.0"
+    },
+    "Tags": []
+  }
+]

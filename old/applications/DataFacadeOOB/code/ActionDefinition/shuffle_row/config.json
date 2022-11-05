@@ -1,0 +1,10 @@
+{
+    "Action": {
+      "PresentationFormat" : "Object",
+      "OutputFormat" : "model",
+      "ActionType" : "Profiling",
+      "ActionGroup": "ManageRow",
+      "Description": "Action to randomly shuffle all rows in the dataset."
+    },
+    "Tags": ["ManageRow"]
+}

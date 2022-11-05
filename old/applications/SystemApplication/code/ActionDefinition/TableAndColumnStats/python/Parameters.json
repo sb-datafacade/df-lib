@@ -1,0 +1,13 @@
+[
+    {
+        "Parameter": {
+            "Datatype": "pandas_dataframe",
+            "Tag": "data",
+            "ParameterName": "df",
+            "Type": "run_time",
+            "TemplateId": "7da1a56f-1117-4753-b75d-105a82175cec",
+            "ActionDefinitionId": "d42777fa-5571-4874-8a92-4ff406082662"
+        },
+        "Tags": []
+    }
+]

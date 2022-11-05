@@ -1,0 +1,10 @@
+
+{
+    "Action": {
+        "Id":"23",
+        "ActionType": "Sync", 
+        "TemplateType":"Sync Table Metadata", 
+        "IsVisibleOnUI": false
+    }
+}
+

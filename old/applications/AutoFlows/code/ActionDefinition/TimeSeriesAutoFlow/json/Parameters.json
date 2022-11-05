@@ -1,0 +1,10 @@
+[
+  {
+    "Parameter": {
+      "Tag": "data",
+      "ParameterName": "Input Table",
+      "Type": "run_time"
+    },
+    "Tags": ["TimeSeriesTable", "TimeSeriesTableWithDimensions", "TimeAndValueTable"]
+  }
+]

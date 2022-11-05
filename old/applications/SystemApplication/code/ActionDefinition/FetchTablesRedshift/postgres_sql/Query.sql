@@ -1,0 +1,1 @@
+SELECT DISTINCT table_name as datafacadesynctablename, table_schema as schemaname FROM information_schema.tables WHERE table_schema NOT IN ('information_schema', 'pg_catalog')

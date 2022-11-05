@@ -1,0 +1,22 @@
+[
+    {
+        "Parameter": {
+            "Id":"10", 
+            "ParameterName":"TableName", 
+            "Datatype":"string_no_quotes", 
+            "Type":"compile_time", 
+            "Tag":"table_name"
+        },
+        "Tags": []
+    },
+    {
+        "Parameter": {
+            "Id":"11", 
+            "ParameterName":"SchemaName", 
+            "Datatype":"string_no_quotes", 
+            "Type":"compile_time", 
+            "Tag":"schema_name"
+        },
+        "Tags": []
+    }
+]

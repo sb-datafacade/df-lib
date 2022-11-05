@@ -1,0 +1,7 @@
+{
+  "Action": {
+    "ActionType": "AutoFlow",
+    "Description": "Creates a Time Series Flow for your table based on table and columns tags",
+    "ActionGroup": "TimeSeriesForecast"
+  }
+}

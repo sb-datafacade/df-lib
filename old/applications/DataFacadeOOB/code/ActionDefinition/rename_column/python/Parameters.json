@@ -1,0 +1,34 @@
+[
+    {
+      "Parameter": {
+        "Datatype": "pandas_dataframe",
+        "Tag": "data",
+        "ParameterName": "data",
+        "Type": "compile_time",
+        "DisplayName": "Source Data Table",
+        "Description": "Choose The Data Table On Which You Want To Apply This Action"
+      },
+      "Tags": []
+    },
+    {
+    "Parameter": {
+      "Datatype": "string",
+      "Tag": "column_name",
+      "ParameterName": "column",
+      "Type": "run_time",
+      "DisplayName": "Choose The Column",
+      "Description": "Please select the column which you want to rename"
+    },
+    "Tags": []
+  },
+  {
+    "Parameter": {
+      "Datatype": "string",
+      "ParameterName": "new_name",
+      "Type": "run_time",
+      "DisplayName": "Type New Name",
+      "Description": "Please specify the new name of the column"
+    },
+    "Tags": []
+  }
+]

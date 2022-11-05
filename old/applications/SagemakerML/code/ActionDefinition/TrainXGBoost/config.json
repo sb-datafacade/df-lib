@@ -1,0 +1,7 @@
+{
+  "Action": {
+    "PresentationFormat" : "dump_text",
+    "OutputFormat" : "model",
+    "ActionType" : "MLTrain"
+  }
+}

@@ -1,0 +1,13 @@
+{
+	"Action": {
+		"Id": "487df17b-99f8-4df5-8416-00d199c42ca8",
+		"PresentationFormat": "element_frequency",
+		"OutputFormat": "table",
+		"DefaultDataType": "Only String",
+		"DefaultActionTemplateId": "145c1864-5a59-4e8a-a1bf-52074fe0cec8",
+		"DefaultEntity": "Column",
+		"ActionType": "Profiling",
+		"ActionGroup": "Statistics"
+	},
+	"Tags": ["OutOfBoxProfiling"]
+}

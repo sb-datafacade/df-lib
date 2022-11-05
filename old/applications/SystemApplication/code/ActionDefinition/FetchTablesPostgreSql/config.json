@@ -1,0 +1,12 @@
+{
+    "Action": {
+        "Id":"10", 
+        "ActionType":"Sync", 
+        "ActionTemplate":"SELECT * FROM information_schema.tables where table_schema NOT IN ('pg_catalog', 'information_schema')", 
+        "OutputFormat":"table", 
+        "TemplateType":"Sync Tables", 
+        "PresentationFormat":"sync", 
+        "QueryLanguage": "SQL", 
+        "IsVisibleOnUI": false
+    }
+  }

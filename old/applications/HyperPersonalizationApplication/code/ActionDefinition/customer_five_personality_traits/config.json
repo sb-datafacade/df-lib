@@ -1,0 +1,10 @@
+{
+  "Action": {
+    "PresentationFormat" : "table_value",
+    "OutputFormat" : "model",
+    "ActionType" : "Profiling",
+    "ActionGroup": "Statistics",
+    "Description": "Action to create segment profile plots and tables."
+    },
+    "Tags": ["ModelSummary"]
+}

@@ -1,0 +1,82 @@
+[
+    {
+      "Parameter": {
+        "Datatype": "pandas_dataframe",
+        "Tag": "data",
+        "ParameterName": "Transformed Customer Demographics And Physiographic Data",
+        "Type": "run_time",
+        "DisplayName": "Transformed Customer Demographics And Physiographic Data"
+      },
+      "Tags": []
+    },
+  {
+      "Parameter": {
+        "Datatype": "pandas_dataframe",
+        "Tag": "data",
+        "ParameterName": "Fintech Data",
+        "Type": "run_time",
+        "DisplayName": "Fintech Data"
+      },
+      "Tags": []
+    },
+    {
+      "Parameter": {
+        "Datatype": "pandas_dataframe",
+        "Tag": "data",
+        "ParameterName": "Propensity Table",
+        "Type": "run_time",
+        "DisplayName": "Propensity Table"
+      },
+      "Tags": []
+    },
+   {
+      "Parameter": {
+        "Datatype": "pandas_dataframe",
+        "Tag": "data",
+        "ParameterName": "Customer Segmentation Data",
+        "Type": "run_time",
+        "DisplayName": "Customer Segmentation Data"
+      },
+      "Tags": []
+    },
+    {
+        "Parameter": {
+            "Datatype": "float",
+            "ParameterName": "Enter The Upper Discount",
+            "Type": "run_time",
+          "DisplayName": "Enter The Upper Discount"
+      },
+        "Tags": []
+    },
+  {
+        "Parameter": {
+            "Datatype": "float",
+            "ParameterName": "Enter The Lower Discount",
+            "Type": "run_time",
+          "DisplayName": "Enter The Lower Discount"
+      },
+        "Tags": []
+    },
+  {
+      "Parameter": {
+        "Datatype": "pandas_dataframe",
+        "Tag": "data",
+        "ParameterName": "Customer Demographics And Physiographic Data",
+        "Type": "run_time",
+        "DisplayName": "Customer Demographics And Physiographic Data"
+      },
+      "Tags": []
+    },
+  {
+    "Parameter": {
+      "Datatype": "string",
+      "Tag": "option_set_single",
+      "ParameterName": "Do You Want To Generate Forecast On Subscription Count?",
+      "Type": "run_time",
+      "DisplayName": "Do You Want To Generate Forecast On Subscription Count?",
+      "OptionSetValues":"Yes,No",
+      "DefaultParameterValue": "Yes"
+    },
+    "Tags": []
+   }
+]

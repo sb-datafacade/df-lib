@@ -1,0 +1,22 @@
+[
+  {
+    "Parameter": {
+      "Datatype": "string",
+      "ParameterName": "spreadsheet_id",
+      "Type": "run_time",
+      "DisplayName": "Type Your Google Spreed Sheet ID",
+      "Description": "User Need To Provide The Google Spreed Sheet ID"
+    },
+    "Tags": []
+  },
+  {
+    "Parameter": {
+      "Datatype": "string",
+      "ParameterName": "sheet_name",
+      "Type": "run_time",
+      "DisplayName": "Type Your Sheet Name ",
+      "Description": "User Need To Provide The Sheet Name Of The Google Spreed Sheet"
+    },
+    "Tags": []
+  }
+]

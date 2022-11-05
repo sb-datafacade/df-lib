@@ -1,0 +1,60 @@
+[
+  {
+    "Parameter": {
+      "Datatype": "pandas_dataframe",
+      "Tag": "data",
+      "ParameterName": "data",
+      "Type": "compile_time",
+      "DisplayName": "Source Data",
+        "Description": "Select the source data table from the dropdown. This table contains the raw data on which you want to run segmentation. This could be sales data, survey data, feedback data collected from customers. It could also be demographic, psycho-graphic, firmographic or behavioral data of the customers."
+      },
+    "Tags": []
+  },
+  {
+        "Parameter": {
+            "Datatype": "column_names_list",
+            "ParameterName": "CustomerID",
+            "Type": "compile_time",
+            "DisplayName": "Customer ID (Optional)",
+          "Description": "Customer ID is the column(s) in the data set with customer identification number, phone number,email id,address and zipcode etc. that uniquely identifies the customer."
+        },
+        "Tags": []
+    },
+  {
+    "Parameter": {
+      "Datatype": "int",
+      "Tag": "other",
+      "ParameterName": "start",
+      "Type": "compile_time",
+      "DisplayName": "Starting Segment Choice",
+      "Description": "Please specify number of segment to start with (must be greater than 1).",
+      "DefaultParameterValue": "2"
+    },
+    "Tags": []
+  },
+  {
+    "Parameter": {
+      "Datatype": "int",
+      "Tag": "other",
+      "ParameterName": "end",
+      "Type": "compile_time",
+      "DisplayName": "End Segment Choice",
+      "Description": "Please specify number of segment for which the method will run at max with.",
+      "DefaultParameterValue": "20"
+    },
+    "Tags": []
+  },
+  {
+    "Parameter": {
+      "Datatype": "string",
+      "Tag": "option_set_single",
+      "ParameterName": "method",
+      "Type": "run_time",
+      "OptionSetValues":"Gaussian Mixture Model,Hierarchical/Agglomerative,Kmeans",
+      "DisplayName": "Segmentation Method",
+      "Description": "Segmentation methods are the different algorithms that can be applied to generate segmentation using source data.",
+      "DefaultParameterValue": "Kmeans"
+        },
+    "Tags": []
+   }
+]

@@ -1,0 +1,10 @@
+{
+    "Action": {
+      "PresentationFormat" : "Object",
+      "OutputFormat" : "model",
+      "ActionType" : "Profiling",
+      "ActionGroup": "DataPreparation",
+      "Description": "Action to separate the first level keys of the json column into separate columns. A first level key is a key that isn't nested within a value."
+    },
+    "Tags": ["DataPreparation"]
+}

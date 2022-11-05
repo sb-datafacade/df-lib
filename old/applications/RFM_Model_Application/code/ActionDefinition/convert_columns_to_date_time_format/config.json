@@ -1,0 +1,8 @@
+{
+  "Action": {
+    "PresentationFormat" : "Object",
+    "OutputFormat" : "model",
+    "ActionType" : "Profiling",
+    "Description": "Action for converting columns of the dataframe to date-time format."
+  }
+}

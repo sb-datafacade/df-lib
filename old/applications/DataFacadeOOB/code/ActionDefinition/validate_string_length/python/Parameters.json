@@ -1,0 +1,34 @@
+[
+   {
+      "Parameter": {
+        "Datatype": "pandas_dataframe",
+        "Tag": "data",
+        "ParameterName": "data",
+        "Type": "compile_time",
+        "DisplayName": "Source Data Table",
+        "Description": "Choose the data table on which you want to apply this action"
+      },
+      "Tags": []
+    },
+    {
+    "Parameter": {
+      "Datatype": "column_names_list",
+      "ParameterName": "columns",
+      "Type": "run_time",
+      "DisplayName": "Choose The Columns",
+      "Description": "List of column (must be of string data type) names on which you want to apply this string validation operation"
+        },
+    "Tags": []
+  },
+  {
+    "Parameter": {
+      "Datatype": "int",
+      "ParameterName": "length",
+      "Type": "run_time",
+      "DisplayName": "Please Specify The Length Of The String",
+      "Description": "Please mention the expected length of the string to validate the string",
+      "DefaultParameterValue": "10"
+    },
+    "Tags": []
+  }
+]

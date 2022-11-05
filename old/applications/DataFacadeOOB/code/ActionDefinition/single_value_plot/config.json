@@ -1,0 +1,10 @@
+{
+    "Action": {
+      "PresentationFormat" : "single_value",
+      "OutputFormat" : "model",
+      "ActionType" : "Profiling",
+      "ActionGroup": "DataVisualization",
+      "Description": "Action To Get Single Summary Value Of A Variable ."
+    },
+    "Tags": ["DataVisualization"]
+}

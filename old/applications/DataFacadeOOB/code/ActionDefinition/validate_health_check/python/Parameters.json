@@ -1,0 +1,16 @@
+[
+    {
+        "Parameter": {
+            "Datatype": "string",
+            "ParameterName": "health_stats_string"
+        },
+        "Tags": []
+    },
+    {
+        "Parameter": {
+            "Datatype": "float",
+            "ParameterName": "threshold_health_percentage"
+        },
+        "Tags": []
+    }
+]

@@ -1,0 +1,8 @@
+{
+  "Id": "4cf8e182-9752-45b9-869e-ca876c37543b",
+  "Name": "FloatColumn",
+  "TagGroup": "ColumnDatatype",
+  "Scope": "Column",
+  "CreatedBy": "DataFacade",
+  "Description": "Runs OOB Profiling for Tables"
+}

@@ -1,0 +1,10 @@
+{
+    "Action": {
+        "Id":"17",
+        "ActionType": "InternalProfiling", 
+        "PresentationFormat":"table_value", 
+        "QueryLanguage":"python", 
+        "OutputDestination": "job", 
+        "IsVisibleOnUI": false
+    }
+}

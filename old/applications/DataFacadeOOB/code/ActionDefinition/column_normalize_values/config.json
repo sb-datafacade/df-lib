@@ -1,0 +1,10 @@
+{
+    "Action": {
+      "PresentationFormat" : "table_value",
+      "OutputFormat" : "model",
+      "ActionType" : "Profiling",
+      "ActionGroup": "DataTransform",
+      "Description": "Normalize values of a column."
+    },
+    "Tags": ["DataTransform"]
+}

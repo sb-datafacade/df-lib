@@ -1,0 +1,28 @@
+[
+    {
+        "Parameter": {
+            "Datatype": "pandas_dataframe",
+            "Tag": "data",
+            "ParameterName": "df",
+            "Type": "run_time",
+            "TemplateId": "d57718bf-f499-4bfd-a34e-62f5ba4aebfe",
+            "ActionDefinitionId": "3ed84164-8ee1-4da1-850d-9f6a211a3a47"
+        },
+        "Tags": []
+    },
+    {
+        "Parameter": {
+            "Datatype": "string",
+            "Tag": "column_name",
+            "ParameterName": "col",
+            "Type": "run_time",
+            "TemplateId": "d57718bf-f499-4bfd-a34e-62f5ba4aebfe",
+            "ActionDefinitionId": "3ed84164-8ee1-4da1-850d-9f6a211a3a47",
+            "Config": {
+                  "ParentParameterName": "df",
+                  "ParentRelationshipName": "TableColumn"
+            }
+        },
+        "Tags": []
+    }
+]

@@ -1,0 +1,11 @@
+{
+	"Action": {
+        "Id": "d42777fa-5571-4874-8a92-4ff406082662",
+        "DefaultActionTemplateId": "7da1a56f-1117-4753-b75d-105a82175cec",
+		"PresentationFormat" : "single_value",
+		"OutputFormat" : "single_value",
+		"ActionType" : "InternalProfiling",
+		"ActionGroup": "DataChecks"
+	},
+	"Tags": ["OutOfBoxProfiling"]
+}

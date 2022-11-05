@@ -1,0 +1,8 @@
+{
+  "Id": "08f8c0a1-9a5a-44b4-9a4b-dc3ce3d58aef",
+  "Name": "StringColumn",
+  "TagGroup": "ColumnDatatype",
+  "Scope": "Column",
+  "CreatedBy": "DataFacade",
+  "Description": "Runs OOB Profiling for Tables"
+}

@@ -1,0 +1,42 @@
+[
+    {
+      "Parameter": {
+        "Datatype": "pandas_dataframe",
+        "Tag": "data",
+        "ParameterName": "Fintech Data",
+        "Type": "run_time",
+        "DisplayName": "Fintech Data"
+      },
+      "Tags": []
+    },
+   {
+      "Parameter": {
+        "Datatype": "pandas_dataframe",
+        "Tag": "data",
+        "ParameterName": "Top Screen Data",
+        "Type": "run_time",
+        "DisplayName": "Top Screen Data"
+      },
+      "Tags": []
+    },
+    {
+        "Parameter": {
+            "Datatype": "float",
+            "ParameterName": "Enter The Lower Propensity Limit",
+            "Type": "run_time",
+          "DisplayName": "Enter The Lower Propensity Limit",
+          "Description": "Here you specify the number of segments for the segmentation analysis."
+      },
+        "Tags": []
+    },
+  {
+        "Parameter": {
+            "Datatype": "float",
+            "ParameterName": "Enter The Upper Propensity Limit",
+            "Type": "run_time",
+          "DisplayName": "Enter The Upper Propensity Limit",
+          "Description": "Here you specify the number of segments for the segmentation analysis."
+      },
+        "Tags": []
+    }
+]

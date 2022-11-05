@@ -1,0 +1,11 @@
+{
+    "Action": {
+        "Id":"8", 
+        "ActionType":"Sync", 
+        "OutputFormat":"table", 
+        "TemplateType":"Sync Table Metadata", 
+        "PresentationFormat":"sync", 
+        "QueryLanguage": "SQL", 
+        "IsVisibleOnUI": false
+    }
+}

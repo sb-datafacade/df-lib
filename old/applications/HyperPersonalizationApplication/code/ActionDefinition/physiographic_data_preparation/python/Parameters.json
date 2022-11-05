@@ -1,0 +1,22 @@
+[
+    {
+      "Parameter": {
+        "Datatype": "pandas_dataframe",
+        "Tag": "data",
+        "ParameterName": "data",
+        "Type": "compile_time",
+        "DisplayName": "Source Data"
+      },
+      "Tags": []
+    },
+  {
+      "Parameter": {
+        "Datatype": "pandas_dataframe",
+        "Tag": "data",
+        "ParameterName": "physiographic_column_info",
+        "Type": "compile_time",
+        "DisplayName": "Physiographic Data Information"
+      },
+      "Tags": []
+    }
+]

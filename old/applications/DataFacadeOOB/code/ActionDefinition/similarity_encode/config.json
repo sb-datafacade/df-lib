@@ -1,0 +1,10 @@
+{
+    "Action": {
+      "PresentationFormat" : "table_value",
+      "OutputFormat" : "model",
+      "ActionType" : "Profiling",
+      "ActionGroup": "EncodeCategorical",
+      "Description": "Action to convert categories to dense numerical vectors where similar category names result in similar vectors. Useful in cases with large number of categories."
+    },
+    "Tags": ["EncodeCategorical"]
+}

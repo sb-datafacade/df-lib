@@ -1,0 +1,33 @@
+[
+    {
+      "Parameter": {
+        "Datatype": "pandas_dataframe",
+        "Tag": "data",
+        "ParameterName": "data",
+        "Type": "compile_time",
+        "DisplayName": "Source Data Table",
+        "Description": "Choose the data table on which you want to apply this action"
+      },
+      "Tags": []
+    },
+    {
+    "Parameter": {
+      "Datatype": "column_names_list",
+      "ParameterName": "columns",
+      "Type": "run_time",
+      "DisplayName": "Choose The Columns",
+      "Description": "List of column names on which you want apply encoding"
+    },
+    "Tags": ["String"]
+  },
+  {
+    "Parameter": {
+      "Datatype": "boolean",
+      "ParameterName": "drop_columns",
+      "Type": "run_time",
+      "DisplayName": "Do You Want To Drop The Original Columns",
+      "Description": "Please select True if you want to drop the original columns after encoding else select False"
+    },
+    "Tags": []
+  }
+]

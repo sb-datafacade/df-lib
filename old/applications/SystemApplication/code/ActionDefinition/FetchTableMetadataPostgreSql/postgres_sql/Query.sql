@@ -1,0 +1,1 @@
+SELECT * FROM information_schema.columns WHERE table_schema = '{SchemaName}' AND table_name = '{TableName}'

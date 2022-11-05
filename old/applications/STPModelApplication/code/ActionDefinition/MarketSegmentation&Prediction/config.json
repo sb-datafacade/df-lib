@@ -1,0 +1,6 @@
+{
+    "Action": {
+      "ActionType" : "Workflow",
+      "Description": "This app provides you with Market segmentation analysis along with a likelihood estimate of new customers falling into a particular segment. It uses standard segmentation practices (algorithms) to divide customers into smaller groups based on their specific characteristics like transaction history, behavior, age, income, and personality.The app also takes the data of the new users as input and predicts the particular segment they are most likely to associate with."
+    }
+}

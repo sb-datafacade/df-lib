@@ -1,0 +1,33 @@
+[
+    {
+      "Parameter": {
+        "Datatype": "pandas_dataframe",
+        "Tag": "data",
+        "ParameterName": "data",
+        "Type": "compile_time",
+        "DisplayName": "Source Data Table",
+        "Description": "Choose the data table on which you want to apply this action"
+      },
+      "Tags": ["TableContainsNullValues"]
+    },
+    {
+      "Parameter": {
+        "Datatype": "column_names_list",
+        "ParameterName": "columns",
+        "DisplayName": "Choose The Columns",
+        "Description": "List of column names (must be string columns) for which you want missing value imputations"
+    },
+      "Tags": ["String"]
+    },
+    {
+    "Parameter": {
+      "Datatype": "float",
+      "ParameterName": "value_percentage",
+      "Type": "run_time",
+      "DisplayName": "Specify The Threshold Percentage",
+      "Description": "Please mention the threshold value to determine whether the string column is categorical type (e.g. Gender,Occupation) or unique identifier (e.g. Name,Email ID)",
+      "DefaultParameterValue": "50.0"
+    },
+    "Tags": []
+  }
+]

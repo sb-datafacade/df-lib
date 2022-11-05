@@ -1,0 +1,6 @@
+{
+    "Action": {
+      "ActionType" : "Workflow",
+      "Description": "This app provides RFM (recency, frequency and monetary) analysis that is used to quantitatively rank and group customers based on the nature of their spending habits. It helps to identify the best customers, enabling the marketing team to increase revenue by targeting specific groups of existing customers (i.e., customer segmentation) with messages and offers that are more likely to be relevant based on data about a particular set of behaviors. This leads to increased response rates, customer retention, customer satisfaction, and customer lifetime value (CLTV)."
+    }
+}

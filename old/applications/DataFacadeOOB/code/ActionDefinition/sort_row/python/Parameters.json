@@ -1,0 +1,35 @@
+[
+    {
+      "Parameter": {
+        "Datatype": "pandas_dataframe",
+        "Tag": "data",
+        "ParameterName": "data",
+        "Type": "compile_time",
+        "DisplayName": "Source Data Table",
+        "Description": "Choose the data table on which you want to apply this action"
+      },
+      "Tags": []
+    },
+    {
+    "Parameter": {
+      "Datatype": "string",
+      "Tag": "column_name",
+      "ParameterName": "column",
+      "Type": "run_time",
+      "DisplayName": "Choose The Column",
+      "Description": "Name of the column on which you want apply sorting"
+    },
+    "Tags": []
+  },
+  {
+    "Parameter": {
+      "Datatype": "boolean",
+      "ParameterName": "ascending",
+      "Type": "run_time",
+      "DisplayName": "Do You Want Column IN Ascending Order",
+      "Description": "Specify if you want to sort the chosen column in ascending or descending order, select true for ascending order and false for descending order",
+      "DefaultParameterValue": "True"
+    },
+    "Tags": []
+  }
+]

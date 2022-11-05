@@ -1,0 +1,10 @@
+{
+    "Action": {
+      "PresentationFormat" : "Object",
+      "OutputFormat" : "model",
+      "ActionType" : "Profiling",
+      "ActionGroup": "DataPreparation",
+      "Description": "Action to expand the values of the array into separate output rows. Only works on columns tagged as list/array."
+    },
+   "Tags": ["DataPreparation"]
+}

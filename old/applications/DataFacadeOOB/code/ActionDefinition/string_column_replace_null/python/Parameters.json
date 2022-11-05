@@ -1,0 +1,40 @@
+[
+    {
+        "Parameter": {
+            "Id": "9f93e248-96a0-48a5-9f5d-74e89f7e800e",
+            "TemplateId": "af24a30d-734c-4d10-a156-8297d6be7170",
+            "Datatype": "pandas_dataframe",
+            "Tag": "data",
+            "ParameterName": "df",
+            "Type": "run_time",
+            "DisplayName": "Source Data Table",
+            "Description": "Choose the data table on which you want to apply this action"
+        },
+        "Tags": ["TableContainsNullValues"]
+    },
+    {
+        "Parameter": {
+            "Id": "5612298f-43fe-430f-8fcb-11bada5ef246",
+            "TemplateId": "af24a30d-734c-4d10-a156-8297d6be7170",
+            "Datatype": "column_names_list",
+            "ParameterName": "column_names",
+            "Type": "compile_time",
+            "DisplayName": "Choose The Columns",
+            "Description": "List of column(data type must be string)  names for which you want missing value imputation"
+        },
+        "Tags": ["String", "PossiblyEmptyColumn", "ContainsMostlyNulls"]
+    },
+    {
+        "Parameter": {
+            "Id": "3914dbc7-afa7-44bc-943f-9ce17ba108f5",
+            "TemplateId": "af24a30d-734c-4d10-a156-8297d6be7170",
+            "Datatype": "string",
+            "Tag": "other",
+            "ParameterName": "replacement_value",
+            "Type": "compile_time",
+            "DisplayName": "Specify The Replacement Value",
+            "Description": "Please mention the value which you want to replace  with null values"
+        },
+        "Tags": []
+    }
+]

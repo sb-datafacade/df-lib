@@ -1,0 +1,12 @@
+{
+    "Action": {
+        "Id": "3",
+        "ActionType":"Sync", 
+        "ActionTemplate":"DESCRIBE TABLE EXTENDED {DatabaseName}.{TableName}", 
+        "OutputFormat":"table", 
+        "TemplateType":"Sync Table Metadata", 
+        "PresentationFormat":"sync", 
+        "QueryLanguage": "SQL", 
+        "IsVisibleOnUI": false
+    }
+  }

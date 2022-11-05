@@ -1,0 +1,12 @@
+{
+    "Action": {
+        "Id":"11", 
+        "ActionType":"Sync", 
+        "ActionTemplate":"SELECT * FROM information_schema.columns WHERE table_schema = '{SchemaName}' AND table_name = '{TableName}'", 
+        "OutputFormat":"table", 
+        "TemplateType":"Sync Table Metadata", 
+        "PresentationFormat":"sync", 
+        "QueryLanguage": "SQL", 
+        "IsVisibleOnUI": false
+    }
+  }

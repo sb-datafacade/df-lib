@@ -1,0 +1,8 @@
+{
+  "Action": {
+    "PresentationFormat": "Object",
+    "ActionType": "Profiling",
+    "Description": "Groups data by dimensions and indexes the dataframe based on timestamps",
+    "ActionGroup": "TimeSeriesForecast"
+  }
+}

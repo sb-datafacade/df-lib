@@ -1,0 +1,11 @@
+{
+    "Action": {
+        "Id": "1000",
+        "ActionType":"Sync",
+        "OutputFormat":"table",
+        "TemplateType":"Sync Tables",
+        "PresentationFormat":"sync",
+        "QueryLanguage": "SQL",
+        "IsVisibleOnUI": false
+    }
+}

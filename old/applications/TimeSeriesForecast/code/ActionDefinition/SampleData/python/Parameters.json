@@ -1,0 +1,50 @@
+[
+    {
+      "Parameter": {
+        "Datatype": "pandas_dataframe",
+        "Tag": "data",
+        "ParameterName": "data",
+        "Type": "compile_time"
+      },
+      "Tags": []
+    },
+   {
+    "Parameter": {
+      "Datatype": "string",
+      "Tag": "option_set_single",
+      "ParameterName": "frequency",
+      "DisplayName": "Frequency of Date Column",
+      "Type": "run_time",
+      "OptionSetValues":"Month,Calendar Day,Weekly,Business Day,Hourly,Minutes,Seconds,Yearly"
+    },
+    "Tags": []
+   },
+   {
+    "Parameter": {
+      "Datatype": "int",
+      "ParameterName": "period",
+      "Type": "run_time"
+    },
+    "Tags": []
+   },
+  {
+    "Parameter": {
+      "Datatype": "string",
+      "Tag": "option_set_single",
+      "ParameterName": "time_stamp_format",
+      "Type": "compile_time",
+      "OptionSetValues": "Infer,%m/%d/%Y,%m/%d/%y,%d/%m/%Y,%d/%m/%y,%d-%m-%Y,%d-%m-%y,%m-%d-%Y,%m-%d-%y,%Y-%m-%d,%Y-%m-%d %H:%M:%S,H:%M:%S,%B %Y,%B: %Y,%m-%d-%Y,%d-%m-%Y %H:%M:%S"
+    },
+    "Tags": []
+  },
+   {
+    "Parameter": {
+      "Datatype": "string",
+      "Tag": "option_set_single",
+      "ParameterName": "resample_method",
+      "Type": "run_time",
+      "OptionSetValues":"Up-sample,Down-sample"
+    },
+    "Tags": []
+   }
+]

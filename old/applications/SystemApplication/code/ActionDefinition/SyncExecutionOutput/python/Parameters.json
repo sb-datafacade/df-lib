@@ -1,0 +1,21 @@
+[
+  {
+    "Parameter": {
+      "Id": "21",
+      "ParameterName": "execution_id",
+      "Datatype": "pandas_dataframe",
+      "Tag": "data",
+      "Type": "compile_time"
+    },
+    "Tags": []
+  },
+  {
+    "Parameter": {
+      "Id": "22",
+      "ParameterName": "table_name",
+      "Datatype": "string",
+      "Type": "compile_time"
+    },
+    "Tags": []
+  }
+]

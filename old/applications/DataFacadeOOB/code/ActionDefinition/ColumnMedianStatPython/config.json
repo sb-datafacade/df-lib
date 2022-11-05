@@ -1,0 +1,14 @@
+{
+	"Action": {
+		"Id" : "78183c07-43ac-4f2d-9e15-6819b57bd7df",
+		"PresentationFormat" : "single_value",
+		"OutputFormat" : "table",
+		"OutputDestination" : "job",
+		"DefaultDataType" : "Numeric(Integer, Number, Float)",
+		"DefaultActionTemplateId" : "4e8c90cc-258d-44e2-a8e7-10ba49f154dc",
+		"DefaultEntity" : "Column",
+		"ActionType" : "Profiling",
+		"ActionGroup": "Statistics"
+	},
+	"Tags": ["OutOfBoxProfiling"]
+}

@@ -1,0 +1,40 @@
+[
+  {
+    "Parameter": {
+      "Datatype": "pandas_dataframe",
+      "Tag": "data",
+      "ParameterName": "data",
+      "Type": "compile_time"
+    },
+    "Tags": []
+  },
+  {
+        "Parameter": {
+            "Datatype": "column_names_list",
+            "ParameterName": "CustomerID",
+            "Type": "compile_time",
+            "DisplayName": "Customer ID (Optional)",
+          "Description": "Customer ID is the column(s) in the data set with customer identification number, phone number,email id,address and zipcode etc. that uniquely identifies the customer."
+        },
+        "Tags": []
+    },
+  {
+    "Parameter": {
+      "Datatype": "int",
+      "Tag": "other",
+      "ParameterName": "number_of_segments",
+      "Type": "compile_time"
+    },
+    "Tags": []
+  },
+  {
+    "Parameter": {
+      "Datatype": "string",
+      "Tag": "option_set_single",
+      "ParameterName": "method",
+      "Type": "run_time",
+      "OptionSetValues":"Gaussian Mixture Model,Hierarchical/Agglomerative,Kmeans"
+    },
+    "Tags": []
+   }
+]

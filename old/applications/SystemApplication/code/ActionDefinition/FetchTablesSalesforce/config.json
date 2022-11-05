@@ -1,0 +1,9 @@
+{
+    "Action": {
+        "Id":"22", 
+        "ActionType": "Sync", 
+        "TemplateType":"Sync Tables", 
+        "IsVisibleOnUI": false
+    }
+}
+

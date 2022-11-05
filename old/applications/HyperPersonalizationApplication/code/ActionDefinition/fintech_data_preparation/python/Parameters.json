@@ -1,0 +1,13 @@
+[
+    {
+      "Parameter": {
+        "Datatype": "pandas_dataframe",
+        "Tag": "data",
+        "ParameterName": "Data",
+        "Type": "compile_time",
+        "DisplayName": "Source Data",
+        "Description": "Select the source data table from the dropdown. This table contains the raw data on which you want to run segmentation. This could be sales data, survey data, feedback data collected from customers. It could also be demographic, psycho-graphic, firmographic or behavioral data of the customers."
+      },
+      "Tags": []
+    }
+]

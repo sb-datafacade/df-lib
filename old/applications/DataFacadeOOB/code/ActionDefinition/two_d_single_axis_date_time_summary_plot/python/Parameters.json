@@ -1,0 +1,58 @@
+[
+    {
+      "Parameter": {
+        "Datatype": "pandas_dataframe",
+        "Tag": "data",
+        "ParameterName": "data",
+        "Type": "compile_time"
+      },
+      "Tags": []
+    },
+    {
+    "Parameter": {
+      "Datatype": "string",
+      "Tag": "column_name",
+      "ParameterName": "date_time_axis",
+      "Type": "run_time"
+    },
+    "Tags": []
+   },
+   {
+    "Parameter": {
+      "Datatype": "string",
+      "Tag": "column_name",
+      "ParameterName": "value",
+      "Type": "run_time"
+    },
+    "Tags": []
+   },
+   {
+    "Parameter": {
+      "Datatype": "string",
+      "ParameterName": "sql_filter",
+      "Type": "run_time",
+      "DefaultParameterValue": "optional"
+    },
+    "Tags": []
+   },
+   {
+    "Parameter": {
+      "Datatype": "string",
+      "Tag": "option_set_single",
+      "ParameterName": "date_time_frequency",
+      "Type": "run_time",
+      "OptionSetValues":"Business Days,Calendar Days,Hours,Minutes,Months,Seconds,Weeks,Years"
+    },
+    "Tags": []
+   },
+   {
+    "Parameter": {
+      "Datatype": "string",
+      "Tag": "option_set_single",
+      "ParameterName": "value_type",
+      "Type": "run_time",
+      "OptionSetValues":"Count,Count Percentage,Unique Count,Average,Maximum,Minimum,Median,Total"
+    },
+    "Tags": []
+   }
+]

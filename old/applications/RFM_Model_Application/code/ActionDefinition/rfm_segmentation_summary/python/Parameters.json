@@ -1,0 +1,47 @@
+[
+  {
+    "Parameter": {
+      "Datatype": "pandas_dataframe",
+      "Tag": "data",
+      "ParameterName": "rfm_segment_data",
+      "Type": "compile_time"
+    },
+    "Tags": []
+  },
+  {
+        "Parameter": {
+            "Datatype": "string",
+            "Tag": "column_name",
+            "ParameterName": "recency_column",
+            "Type": "compile_time"
+        },
+        "Tags": []
+    },
+    {
+        "Parameter": {
+            "Datatype": "string",
+            "Tag": "column_name",
+            "ParameterName": "frequency_column",
+            "Type": "compile_time"
+        },
+        "Tags": []
+    },
+    {
+        "Parameter": {
+            "Datatype": "string",
+            "Tag": "column_name",
+            "ParameterName": "monetary_value_column",
+            "Type": "compile_time"
+        },
+        "Tags": []
+    },
+    {
+        "Parameter": {
+            "Datatype": "string",
+            "Tag": "column_name",
+            "ParameterName": "segment_column",
+            "Type": "compile_time"
+        },
+        "Tags": []
+    }
+]

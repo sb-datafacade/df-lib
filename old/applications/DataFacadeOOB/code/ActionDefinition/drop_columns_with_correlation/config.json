@@ -1,0 +1,9 @@
+{
+    "Action": {
+      "PresentationFormat" : "table_value",
+      "ActionType" : "Profiling",
+      "ActionGroup": "ManageColumns",
+      "Description": "Action to delete columns from data."
+    },
+    "Tags": ["ManageColumns"]
+}

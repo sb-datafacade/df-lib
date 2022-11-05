@@ -1,0 +1,9 @@
+{
+    "Action": {
+      "PresentationFormat" : "single_value",
+      "ActionType" : "Profiling",
+      "ActionGroup": "DataChecks",
+      "Description": "Action to create a new column that indicates (with an indicator) that a row of text data meets the specified length. Works only on text data."
+    },
+    "Tags": []
+}
