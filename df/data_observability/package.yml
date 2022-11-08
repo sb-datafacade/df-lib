@@ -1,0 +1,6 @@
+name: data_observability
+version: 0.1
+display_name: Data Quality & Anomaly Detection
+description: 'This package stores all the out of box data facade data observability
+  applications. '
+state: draft

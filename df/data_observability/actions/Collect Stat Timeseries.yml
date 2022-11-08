@@ -1,0 +1,21 @@
+unique_name: Collect Stat Timeseries
+action_reference: Collect Stat Timeseries
+charts:
+- kind: bar
+  name: Count Trend
+  expose_data: false
+  options:
+    x: m_count
+    y: dimensions
+display_name: Collect Stat Timeseries
+state: draft
+parameters:
+- param_name: column_names
+  df_param_type: column_names_list
+  display_name: Group Column Names
+  user_input_required: true
+- param_name: table_name
+  df_param_type: table
+  display_name: Target Table
+  user_input_required: true
+source_type: df_sql
